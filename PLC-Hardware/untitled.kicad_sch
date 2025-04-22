@@ -11,7 +11,7 @@
 		(company "Akbar Q Open Source")
 		(comment 1 "Digital Input [Switch + External 24V]")
 		(comment 2 "Corrected Relay Driver Circuit Power")
-		(comment 3 "PCB Manufacture Complete - Pending Build and Test")
+		(comment 3 "PCB Manufacture Complete")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
