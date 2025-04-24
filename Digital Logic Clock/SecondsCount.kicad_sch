@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "e6f3e5e3-6b6a-4d0b-b212-10034b31d36f")
 	(paper "A4")
+	(title_block
+		(title "Seconds Counter")
+		(date "2023-12-24")
+		(rev "1.0")
+		(company "Akbar Q")
+	)
 	(lib_symbols
 		(symbol "4xxx:4081"
 			(pin_names
