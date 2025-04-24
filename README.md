@@ -7,7 +7,7 @@ This repository showcases a curated selection of my original electronics hardwar
 With over three years of hands-on experience, I specialize in taking ideas from concept to lab-verified prototypes. My approach blends solid engineering principles with detailed testing and manufacturing-aware design. I work across the full lifecycle—from schematic capture and BOM optimization to PCB layout, fabrication, and real-world debugging.
 
 Visit my website for more about my work:  
-**[akbarq.com]**
+**[akbarq.com](www.akbarq.com)**
 
 ---
 
@@ -31,16 +31,16 @@ High-performance RF amplifier optimized for sub-1.6 GHz communication applicatio
 ### NiMH Battery Charger  
 A smart charger built for safe and reliable charging of NiMH cells in a lab or small-device context.
 
-**Highlights**  
-- Charge termination logic based on temperature and voltage feedback  
+**Highlights**  k  
 - BOM optimized for efficiency and cost  
-- Fully bench-tested under different load conditions
+- Decorative PCB Showcasing Silkscreen Without Needing a Casing
+- IoT Capavilities with the ESP32 Microcontroller
 
-**Project Folder:** `nimh-battery-charger/`  
-**Schematic:** [View Schematic](#)  
-**PCB Layout:** [View PCB](#)  
+**Project Folder:** [View Folder](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/tree/main/NiMH%20Battery%20Charger) 
+**Schematic:** [View Schematic](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/blob/main/NiMH%20Battery%20Charger/Layers%20PDF/Schematic%20Print%20Colour.pdf)  
+**PCB Layout:** [View PCB]()  
 **Image Gallery:**  
-![Placeholder image](images/nimh-charger-placeholder.png)
+![Placeholder image](NiMH%Battery%Charger/NiMH%Battery%Charger.png)
 
 ---
 
