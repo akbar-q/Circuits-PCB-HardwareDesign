@@ -38,7 +38,7 @@ A smart charger built for safe and reliable charging of NiMH cells in a lab or s
 
 **Project Folder:** [View Folder](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/tree/main/NiMH%20Battery%20Charger) 
 **Schematic:** [View Schematic](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/blob/main/NiMH%20Battery%20Charger/Layers%20PDF/Schematic%20Print%20Colour.pdf)  
-**PCB Layout:** [View PCB]()  
+**PCB Layout:** [View PCB](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/blob/main/NiMH%20Battery%20Charger/Layers%20PDF/PCB%20Layers%20Print%20BW.pdf)  
 **Image Gallery:**  
 ![Placeholder image](NiMH%Battery%Charger/NiMH%Battery%Charger.png)
 
