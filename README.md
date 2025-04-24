@@ -24,7 +24,7 @@ High-performance RF amplifier optimized for sub-1.6 GHz communication applicatio
 **Schematic:** [View Schematic](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/blob/main/RF%20Amplifier%20Sub%201.6%20GHz/Schematic%20Print%20Colour.pdf)  
 **PCB Layout:** [View PCB](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/blob/main/RF%20Amplifier%20Sub%201.6%20GHz/PCB%20Layers%20Print%20BW.pdf)  
 **Image Gallery:**  
-![Placeholder image]("RF Amplifier Sub 1.6 GHz\RF-Amplifier.png")
+![Placeholder image]("RF Amplifier Sub 1.6 GHz/RF-Amplifier.png")
 
 ---
 
