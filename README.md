@@ -20,7 +20,7 @@ High-performance RF amplifier optimized for sub-1.6 GHz communication applicatio
 - PCB Manufactured by JLC and Hand Hot Air Assembled with a Stencil
 - Validated using spectrum analyzer and vector network analyzer
 
-**Project Folder:** `https://github.com/akbar-q/Circuits-PCB-HardwareDesign/tree/main/RF%20Amplifier%20Sub%201.6%20GHz`  
+**Project Folder:** [View Folder](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/tree/main/RF%20Amplifier%20Sub%201.6%20GHz)  
 **Schematic:** [View Schematic](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/blob/main/RF%20Amplifier%20Sub%201.6%20GHz/Schematic%20Print%20Colour.pdf)  
 **PCB Layout:** [View PCB](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/blob/main/RF%20Amplifier%20Sub%201.6%20GHz/PCB%20Layers%20Print%20BW.pdf)  
 **Image Gallery:**  
