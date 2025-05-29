@@ -4650,9 +4650,9 @@
 		)
 		(uuid d83b22cf-e7b2-4cab-9003-1d8633d0afab)
 	)
-	(text "USB-C Port Power In Only"
+	(text "USB-C Port Power and Programming"
 		(exclude_from_sim no)
-		(at 240.792 17.78 0)
+		(at 238.252 16.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
