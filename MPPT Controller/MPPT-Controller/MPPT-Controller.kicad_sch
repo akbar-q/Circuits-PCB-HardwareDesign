@@ -4274,14 +4274,14 @@
 		)
 		(uuid fc622fe7-7c91-41f0-aeef-a30e6b8ebb1e)
 	)
-	(text "USB-C Port Power and Programming"
+	(text "USB-C Port Power and Programming\nSearch for JBL Charge 4 USB-C Ports"
 		(exclude_from_sim no)
-		(at 239.014 92.202 0)
+		(at 256.54 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "5d3a2b83-b202-4018-9046-efdf9bd11495")
 	)
@@ -4337,6 +4337,16 @@
 			(justify left bottom)
 		)
 		(uuid "d89cd137-d352-4882-91ae-e599b3d93462")
+	)
+	(text "ADD DIODES TO\nCONTROL POWER FLOW\nNO BACKFEED"
+		(exclude_from_sim no)
+		(at 128.524 183.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f43d3bb9-78d0-490f-aa7c-ea0758a82c3c")
 	)
 	(text "Sheild Pour Under\nUSB Port Connected\nVia Caps to Ground"
 		(exclude_from_sim no)
