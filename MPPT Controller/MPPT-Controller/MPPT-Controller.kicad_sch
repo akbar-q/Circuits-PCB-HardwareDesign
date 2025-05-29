@@ -1345,6 +1345,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3558,6 +3732,18 @@
 		(uuid 415ddeca-7a96-4cea-8f08-be49fd3a7f20)
 	)
 	(rectangle
+		(start 13.97 140.97)
+		(end 64.77 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 41d49726-7d14-4cc1-9fd4-62cd0e22993a)
+	)
+	(rectangle
 		(start 171.45 13.97)
 		(end 198.12 58.42)
 		(stroke
@@ -3954,6 +4140,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 167.64) (xy 27.94 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13cc79c6-b9f5-4315-8931-493ea2f6bb18")
+	)
+	(wire
+		(pts
 			(xy 129.54 43.18) (xy 133.35 43.18)
 		)
 		(stroke
@@ -3974,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 167.64) (xy 50.8 173.99)
+			(xy -19.05 163.83) (xy -19.05 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4044,7 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 162.56) (xy 43.18 162.56)
+			(xy -30.48 158.75) (xy -26.67 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4144,6 +4340,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 179.07) (xy 27.94 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375b46f4-4149-4cc5-a20c-2fec9cfb8db5")
+	)
+	(wire
+		(pts
 			(xy 209.55 36.83) (xy 213.36 36.83)
 		)
 		(stroke
@@ -4171,6 +4377,16 @@
 			(type default)
 		)
 		(uuid "3aafe5b0-7368-4f18-b629-150cca7a2820")
+	)
+	(wire
+		(pts
+			(xy 38.1 179.07) (xy 38.1 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9b4b3a-f1d3-46d4-a814-90d5bf39c026")
 	)
 	(wire
 		(pts
@@ -4234,6 +4450,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 179.07) (xy 46.99 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a3de97-f417-4ae1-9aa7-1f671186fdb9")
+	)
+	(wire
+		(pts
 			(xy 213.36 104.14) (xy 218.44 104.14)
 		)
 		(stroke
@@ -4241,6 +4467,16 @@
 			(type default)
 		)
 		(uuid "4cb5e336-1541-4994-86d5-cef93bce3c57")
+	)
+	(wire
+		(pts
+			(xy 27.94 156.21) (xy 27.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d92d382-2442-4419-a29c-b41a340ca1d6")
 	)
 	(wire
 		(pts
@@ -4264,7 +4500,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 162.56) (xy 31.75 162.56)
+			(xy -41.91 158.75) (xy -38.1 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4281,6 +4517,26 @@
 			(type default)
 		)
 		(uuid "5229c477-89a6-45fd-b6d3-41af36b95102")
+	)
+	(wire
+		(pts
+			(xy 55.88 167.64) (xy 55.88 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528d2a60-a61a-4f35-9c1d-ff60d2b2399d")
+	)
+	(wire
+		(pts
+			(xy 55.88 156.21) (xy 55.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55050648-573a-4a18-a7e4-791f9196e8c6")
 	)
 	(wire
 		(pts
@@ -4404,6 +4660,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 167.64) (xy 17.78 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680e9539-61ca-47a9-b019-a426cc97fdc1")
+	)
+	(wire
+		(pts
 			(xy 213.36 101.6) (xy 218.44 101.6)
 		)
 		(stroke
@@ -4411,6 +4677,16 @@
 			(type default)
 		)
 		(uuid "6a8463ae-8eb3-43f3-afd0-bfab7382caee")
+	)
+	(wire
+		(pts
+			(xy 46.99 167.64) (xy 46.99 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af285b2-e16a-4802-b2f5-5da11ebc5157")
 	)
 	(wire
 		(pts
@@ -4444,13 +4720,23 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 176.53) (xy 22.86 173.99)
+			(xy -46.99 172.72) (xy -46.99 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "769adcb3-b78b-4b90-a3ca-c8a4e9ded709")
+	)
+	(wire
+		(pts
+			(xy 17.78 156.21) (xy 17.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769d9b54-8665-4cfa-bc00-40c141a9e6ce")
 	)
 	(wire
 		(pts
@@ -4484,6 +4770,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 156.21) (xy 38.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7c9171-0fef-4bc2-a5b0-254eb3f69b65")
+	)
+	(wire
+		(pts
 			(xy 33.02 31.75) (xy 43.18 31.75)
 		)
 		(stroke
@@ -4494,7 +4790,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 152.4) (xy 50.8 157.48)
+			(xy -19.05 148.59) (xy -19.05 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4734,6 +5030,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 179.07) (xy 17.78 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5eba6a2-ddf0-4388-b702-1bb4e7a74d97")
+	)
+	(wire
+		(pts
 			(xy 107.95 49.53) (xy 107.95 55.88)
 		)
 		(stroke
@@ -4771,6 +5077,16 @@
 			(type default)
 		)
 		(uuid "abca978b-da4a-4e58-9be2-eb29198c3f5b")
+	)
+	(wire
+		(pts
+			(xy 55.88 179.07) (xy 55.88 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acec5a8c-6226-4d30-8275-f2a9fb6536fb")
 	)
 	(wire
 		(pts
@@ -4964,6 +5280,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 156.21) (xy 46.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccae13d4-ed11-407a-a8e2-4b98bf4c09d4")
+	)
+	(wire
+		(pts
 			(xy 38.1 92.71) (xy 49.53 92.71)
 		)
 		(stroke
@@ -5071,6 +5397,16 @@
 			(type default)
 		)
 		(uuid "ea48b2a9-03b1-4092-bbf3-1dd72b42d96b")
+	)
+	(wire
+		(pts
+			(xy 38.1 167.64) (xy 38.1 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf6a841-309d-4cb1-b0f2-a01de5fc45a1")
 	)
 	(wire
 		(pts
@@ -5276,6 +5612,28 @@
 			)
 		)
 	)
+	(global_label "MPPT"
+		(shape input)
+		(at 55.88 156.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31db56fb-1d67-4e03-8b64-33d700ccb21c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 148.2658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VoltIn"
 		(shape input)
 		(at 80.01 101.6 0)
@@ -5311,6 +5669,28 @@
 		(uuid "371f96e5-42c5-451f-bef4-95761fe7132c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.5834 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HeartBeat"
+		(shape input)
+		(at 27.94 156.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "388ace60-0101-4146-86b4-e293b425ef7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.94 143.9115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5812,7 @@
 	)
 	(global_label "Range"
 		(shape input)
-		(at 27.94 162.56 180)
+		(at -41.91 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5442,7 +5822,7 @@
 		)
 		(uuid "675213fd-8cc8-495a-abd8-703007f9f8a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.1492 162.56 0)
+			(at -50.7008 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,6 +6140,28 @@
 			)
 		)
 	)
+	(global_label "Charging"
+		(shape input)
+		(at 46.99 156.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e16cb945-d250-4a52-81a8-35f821b33e52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 144.8188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IdiffB"
 		(shape input)
 		(at 129.54 40.64 180)
@@ -5804,9 +6206,31 @@
 			)
 		)
 	)
+	(global_label "Fault"
+		(shape input)
+		(at 38.1 156.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc8417f1-122d-4473-9432-4bd5dedfa106")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 148.4473 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 176.53 0)
+		(at -46.99 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5815,7 +6239,7 @@
 		(fields_autoplaced yes)
 		(uuid "00070e2c-b5ce-4cd8-ae4b-0479d4ccb440")
 		(property "Reference" "#PWR03"
-			(at 22.86 182.88 0)
+			(at -46.99 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +6248,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 181.61 0)
+			(at -46.99 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +6256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 176.53 0)
+			(at -46.99 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +6265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 176.53 0)
+			(at -46.99 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +6274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 176.53 0)
+			(at -46.99 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,8 +6295,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 55.88 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "010d4d08-59b3-4756-bbec-17e3843186b6")
+		(property "Reference" "R20"
+			(at 57.404 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 57.404 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 54.102 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b45338e2-ece2-4110-b96a-b8899e77f79c")
+		)
+		(pin "2"
+			(uuid "74875a3e-5e02-43ef-a361-d54201045bc3")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC817")
-		(at 48.26 162.56 0)
+		(at -21.59 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5881,7 +6374,7 @@
 		(fields_autoplaced yes)
 		(uuid "0405a707-6540-4c2b-910a-7b3fb4eb05d1")
 		(property "Reference" "Q1"
-			(at 53.34 161.2899 0)
+			(at -16.51 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +6383,7 @@
 			)
 		)
 		(property "Value" "BC817"
-			(at 53.34 163.8299 0)
+			(at -16.51 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +6392,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 53.34 164.465 0)
+			(at -16.51 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +6403,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 48.26 162.56 0)
+			(at -21.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +6413,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 48.26 162.56 0)
+			(at -21.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,6 +6499,142 @@
 			(project ""
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 55.88 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0628b87c-04db-4a38-9783-82212fb16c3f")
+		(property "Reference" "D5"
+			(at 59.69 176.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 59.69 178.7525 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f9018f2-8b6c-420a-9fe0-1244cba87118")
+		)
+		(pin "2"
+			(uuid "48e342a5-4a89-4b53-8339-7ae69a61031b")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 17.78 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08902894-270d-43af-bfac-e4276bad435a")
+		(property "Reference" "D1"
+			(at 21.59 176.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 21.59 178.7525 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 17.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0aab62e-ab64-4c2b-836b-b26a8975388f")
+		)
+		(pin "2"
+			(uuid "5594dfd9-b79e-40d1-b5c4-575954198ff0")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6140,6 +6769,74 @@
 			(project ""
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 46.99 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13c8ea23-3c47-4b1b-abc0-9a6a1d9de116")
+		(property "Reference" "D4"
+			(at 50.8 176.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 50.8 178.7525 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "830bd2c8-53e1-4aa2-b635-70ecdc34e549")
+		)
+		(pin "2"
+			(uuid "ac08d676-9d1c-4dcd-b693-3f8ba713af0a")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6412,7 +7109,7 @@
 	)
 	(symbol
 		(lib_id "Relay:JQC-3FF-005-1Z")
-		(at 35.56 179.07 270)
+		(at -34.29 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6420,7 +7117,7 @@
 		(dnp no)
 		(uuid "2683ee0d-7dfe-47a5-86fd-0b788e06c0de")
 		(property "Reference" "K1"
-			(at 37.084 167.386 90)
+			(at -32.766 163.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +7126,7 @@
 			)
 		)
 		(property "Value" "JQC-3FF-005-1Z"
-			(at 44.196 191.008 90)
+			(at -25.654 187.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +7135,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_Hongfa_JQC-3FF_0XX-1Z"
-			(at 34.29 190.5 0)
+			(at -35.56 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +7145,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/htmldatasheets/production/2071105/0/0/1/JQC-3FF.pdf"
-			(at 35.56 179.07 0)
+			(at -34.29 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +7154,7 @@
 			)
 		)
 		(property "Description" "Subminiature High Power SPDT Relay, 5V Coil nom. 0.36W, 10A switching current, max 10A@277VAC/28VDC"
-			(at 35.56 179.07 0)
+			(at -34.29 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,6 +7389,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 46.99 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3507f84c-75a3-4a51-a489-4e99f66457f9")
+		(property "Reference" "#PWR039"
+			(at 46.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94000786-05fd-4127-94ee-4ba2fb79976f")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VAA")
 		(at 71.12 22.86 0)
 		(unit 1)
@@ -6838,16 +7600,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 50.8 152.4 0)
+		(lib_id "power:GND")
+		(at 17.78 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "46738329-29c9-4734-8885-bea5938be4cc")
-		(property "Reference" "#PWR04"
-			(at 50.8 156.21 0)
+		(uuid "46270ce3-3334-487e-9e73-be223723aa67")
+		(property "Reference" "#PWR034"
+			(at 17.78 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,8 +7617,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 50.8 148.59 0)
+		(property "Value" "GND"
+			(at 17.78 187.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +7626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 152.4 0)
+			(at 17.78 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,7 +7635,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 152.4 0)
+			(at 17.78 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7007593d-73e0-4d22-9d94-d44412fcc6a2")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at -19.05 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46738329-29c9-4734-8885-bea5938be4cc")
+		(property "Reference" "#PWR04"
+			(at -19.05 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at -19.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -19.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -19.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +7709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 50.8 152.4 0)
+			(at -19.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,6 +7789,75 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 17.78 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47f39efc-5888-4e69-b14b-c51679537f2d")
+		(property "Reference" "R16"
+			(at 19.304 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 19.304 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 16.002 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 17.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bb507bc-2070-4a33-b6b6-ec6b34950be2")
+		)
+		(pin "2"
+			(uuid "fe2d8a7e-3cc5-4461-8653-a0dbc4b7e2b4")
+		)
+		(instances
+			(project ""
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7167,6 +8063,71 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 17.78 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54e06428-790e-4c4c-9c64-2df4ef7d0a1a")
+		(property "Reference" "#PWR033"
+			(at 17.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 17.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 17.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa72678f-d87e-4b3c-b2bc-d817bd523f9d")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7750,6 +8711,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 38.1 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63ef0084-5720-48fc-8692-1f40bdae7ebd")
+		(property "Reference" "#PWR038"
+			(at 38.1 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "183c7f32-aadd-411c-81e9-1b37fbd1b813")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 20.32 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7884,7 +8910,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 162.56 90)
+		(at -34.29 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7892,7 +8918,7 @@
 		(dnp no)
 		(uuid "6b2cfcd1-55ae-49ac-aaa2-294c64e7d4e7")
 		(property "Reference" "R1"
-			(at 35.56 160.528 90)
+			(at -34.29 156.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +8926,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 35.56 162.56 90)
+			(at -34.29 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +8934,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 35.56 164.338 90)
+			(at -34.29 160.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +8943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 162.56 0)
+			(at -34.29 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +8952,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 35.56 162.56 0)
+			(at -34.29 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,6 +9308,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 38.1 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71a9a4ab-0f78-4f82-8397-6f36d7475bd3")
+		(property "Reference" "D3"
+			(at 41.91 176.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 41.91 178.7525 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b60a0bad-ba18-4e22-91df-e90fffb51d24")
+		)
+		(pin "2"
+			(uuid "16170a41-10ed-4d0f-bc82-8f382203b89d")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VAA")
 		(at 95.25 86.36 0)
 		(unit 1)
@@ -8406,6 +9500,74 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 27.94 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e7829fa-6580-4938-a2e9-276122e1501d")
+		(property "Reference" "D2"
+			(at 31.75 176.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 31.75 178.7525 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4671061-b7bf-437f-ae4f-7e1b6dde6169")
+		)
+		(pin "2"
+			(uuid "74ff5267-6f6f-458d-9f1c-6342bdd28870")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9729,6 +10891,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 46.99 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcfb56c7-7471-4a11-8e9a-b7b420a9c6f1")
+		(property "Reference" "R19"
+			(at 48.514 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 48.514 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 45.212 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74297292-84b1-4bd3-995c-e759aeb0fd18")
+		)
+		(pin "2"
+			(uuid "00d84a75-ff2c-4868-9d86-ef573cdc6813")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfe75dce-6e9c-4a77-af4f-935d0930e730")
+		(property "Reference" "#PWR037"
+			(at 27.94 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98ecfc7d-4500-46cb-b888-f9ae1bae8160")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 73.66 0)
 		(unit 1)
@@ -10186,6 +11482,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 38.1 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea07a12b-326c-4fbd-a641-6bc85bc9e5da")
+		(property "Reference" "R18"
+			(at 39.624 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 39.624 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 36.322 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98f92e15-76a7-40fb-b193-0692bdaef4fa")
+		)
+		(pin "2"
+			(uuid "d6951332-e8aa-4e7e-adda-c1e9288f2846")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 95.25 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10527,6 +11892,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 55.88 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4bb7fc6-10ff-4008-a922-7185cc87c7f8")
+		(property "Reference" "#PWR040"
+			(at 55.88 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bba974d-ff2f-431c-baa0-f6fc084a7b68")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 185.42 29.21 180)
 		(unit 1)
@@ -10655,6 +12085,75 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbf04dee-bba2-483a-a8c5-f6062fe22716")
+		(property "Reference" "R17"
+			(at 29.464 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 29.464 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 26.162 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67922cae-2462-4b03-b53b-75c6cfe8b2a8")
+		)
+		(pin "2"
+			(uuid "a9a6b267-4659-4854-800b-c5abd160836b")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R17")
 					(unit 1)
 				)
 			)
