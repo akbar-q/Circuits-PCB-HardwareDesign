@@ -8788,7 +8788,7 @@
 		(dnp no)
 		(uuid "10b47438-fa18-4bfe-b519-9f84983a3dda")
 		(property "Reference" "R21"
-			(at 161.798 131.826 90)
+			(at 160.782 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12165,7 @@
 		(dnp no)
 		(uuid "798f7124-ffb2-4c99-b5af-801a3589f295")
 		(property "Reference" "R22"
-			(at 161.544 122.936 90)
+			(at 160.782 122.936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,7 +13477,7 @@
 		(dnp no)
 		(uuid "a7881485-0e15-45a2-a058-a1cfeccfc56f")
 		(property "Reference" "R1"
-			(at 148.844 131.826 90)
+			(at 147.574 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
