@@ -5177,6 +5177,12 @@
 		(uuid "11d6fbfe-ebe8-4d8a-a5fe-e883359dc1a6")
 	)
 	(junction
+		(at 165.1 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ce76573-9cb3-4507-9a84-8ba48db1051a")
+	)
+	(junction
 		(at 186.69 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5259,6 +5265,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a86aced7-7289-4b57-b2de-4c15d6cc9152")
+	)
+	(junction
+		(at 152.4 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b26ac52d-e26d-4f63-bdb9-d998aa6ef318")
 	)
 	(junction
 		(at 186.69 148.59)
@@ -5566,7 +5578,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 120.65) (xy 165.1 120.65)
+			(xy 162.56 116.84) (xy 165.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5726,7 +5738,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 120.65) (xy 165.1 129.54)
+			(xy 165.1 116.84) (xy 165.1 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6666,6 +6678,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 123.19) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d26eb50-0332-45c6-9ee7-d63e4a1a89f5")
+	)
+	(wire
+		(pts
 			(xy 170.18 157.48) (xy 170.18 158.75)
 		)
 		(stroke
@@ -6876,6 +6898,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 123.19) (xy 165.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c54ff4-c27a-4b4e-ac49-d2144fcc0f92")
+	)
+	(wire
+		(pts
 			(xy 276.86 73.66) (xy 276.86 81.28)
 		)
 		(stroke
@@ -7006,7 +7038,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 120.65) (xy 152.4 129.54)
+			(xy 152.4 116.84) (xy 152.4 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7196,7 +7228,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 120.65) (xy 152.4 120.65)
+			(xy 154.94 116.84) (xy 152.4 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7316,6 +7348,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 123.19) (xy 165.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b8d03b-87d8-498d-b1a7-77c705f01b6e")
+	)
+	(wire
+		(pts
 			(xy 276.86 67.31) (xy 276.86 73.66)
 		)
 		(stroke
@@ -7363,6 +7405,16 @@
 			(type default)
 		)
 		(uuid "ed73dd96-8952-4021-907a-3ca1fd29f9e3")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 154.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00dc815-0f88-4e56-b329-035c829f18fa")
 	)
 	(wire
 		(pts
@@ -12157,7 +12209,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 120.65 90)
+		(at 158.75 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12165,7 +12217,7 @@
 		(dnp no)
 		(uuid "798f7124-ffb2-4c99-b5af-801a3589f295")
 		(property "Reference" "R22"
-			(at 160.782 122.936 90)
+			(at 160.782 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12226,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 159.512 120.65 90)
+			(at 159.512 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12183,7 +12235,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 158.75 122.428 90)
+			(at 158.75 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12192,7 +12244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 120.65 0)
+			(at 158.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12201,7 +12253,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 120.65 0)
+			(at 158.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14354,6 +14406,75 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4e4e211-c8fd-4136-a4e5-c1f865476a4c")
+		(property "Reference" "C13"
+			(at 163.83 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 163.83 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 162.56 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73f7f5be-f0b8-4a9a-8143-b0e430e9a82e")
+		)
+		(pin "1"
+			(uuid "61dc0a3b-9fd9-4eef-8278-9839fb038f6c")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "C13")
 					(unit 1)
 				)
 			)
