@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "3478fe58-6c48-40fd-90f3-a0feb3af5722")
 	(paper "A4")
+	(title_block
+		(comment 1 "Capacitor Ratings Need to be >50V for HVDC")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
 			(exclude_from_sim no)
@@ -1712,6 +1715,168 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3496,6 +3661,349 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:LM2596S-ADJ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM2596S-ADJ"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Adjustable 3A Step-Down Voltage Regulator, TO-263"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Step-Down Voltage Regulator Adjustable 3A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?263*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM2596S-ADJ_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM2596S-ADJ_1_1"
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "~{ON}/OFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ScottoKeebs:Placeholder_Diode"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Diode"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_Diode_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Placeholder_Diode_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4711,6 +5219,12 @@
 		(uuid "671dfd6c-b95b-464d-ba4c-c214ce5ab049")
 	)
 	(junction
+		(at 210.82 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67df4176-ae1f-49aa-b51d-477d96205121")
+	)
+	(junction
 		(at 19.05 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4745,6 +5259,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb7c5bd0-3757-4e20-b4f4-52e5f22ce6e2")
+	)
+	(junction
+		(at 210.82 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8d1a60b-3010-4f5a-ab8d-3a05dcd71c8d")
 	)
 	(junction
 		(at 107.95 31.75)
@@ -4789,6 +5309,12 @@
 		(uuid "f29d7c78-35e3-483c-82c3-0b9e36119e49")
 	)
 	(junction
+		(at 177.8 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5720e51-1eda-4ddd-a05e-b2bc49a36135")
+	)
+	(junction
 		(at 213.36 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4811,6 +5337,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fee482db-606b-4864-a85d-650322e10564")
+	)
+	(junction
+		(at 191.77 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff25dd13-388e-4170-ad0a-c7c51e4f10cb")
 	)
 	(no_connect
 		(at 179.07 81.28)
@@ -4877,6 +5409,16 @@
 			(type default)
 		)
 		(uuid "05234039-4086-4a89-abf5-40eb4dd8a695")
+	)
+	(wire
+		(pts
+			(xy 191.77 156.21) (xy 191.77 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0861f514-70be-4fcb-8865-0ae83defa251")
 	)
 	(wire
 		(pts
@@ -5107,6 +5649,16 @@
 			(type default)
 		)
 		(uuid "260d9f50-0b3e-4d9d-88d9-9ce4abba6b47")
+	)
+	(wire
+		(pts
+			(xy 210.82 146.05) (xy 204.47 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28dc25c6-3a36-4ed5-abcd-f6ebdf5dc4c3")
 	)
 	(wire
 		(pts
@@ -5650,6 +6202,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 156.21) (xy 177.8 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c18d556-022f-46ab-a44b-a675a9f3b7a7")
+	)
+	(wire
+		(pts
 			(xy 102.87 31.75) (xy 107.95 31.75)
 		)
 		(stroke
@@ -5660,6 +6222,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 146.05) (xy 177.8 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6bc59e-3754-4591-9fc9-b0589eb6cc04")
+	)
+	(wire
+		(pts
 			(xy 85.09 31.75) (xy 95.25 31.75)
 		)
 		(stroke
@@ -5667,6 +6239,26 @@
 			(type default)
 		)
 		(uuid "735b4629-dc5a-495a-a222-b40b3b0e3c02")
+	)
+	(wire
+		(pts
+			(xy 210.82 146.05) (xy 210.82 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "738ab396-8366-4390-bb5c-7967da3b9950")
+	)
+	(wire
+		(pts
+			(xy 227.33 147.32) (xy 227.33 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7558dc0a-9c6f-485b-8b70-5b70655c7951")
 	)
 	(wire
 		(pts
@@ -5697,6 +6289,16 @@
 			(type default)
 		)
 		(uuid "778b08b7-9c32-4cd1-8e52-f49d8888ad6f")
+	)
+	(wire
+		(pts
+			(xy 168.91 153.67) (xy 168.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4910da-1c4e-4b67-a2c7-63ba2cb0ea83")
 	)
 	(wire
 		(pts
@@ -5750,6 +6352,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 154.94) (xy 227.33 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803608b4-e84b-4de7-9ac2-26263448cd20")
+	)
+	(wire
+		(pts
 			(xy 52.07 114.3) (xy 52.07 115.57)
 		)
 		(stroke
@@ -5787,6 +6399,16 @@
 			(type default)
 		)
 		(uuid "877d37dd-206d-4c65-83b1-24a2cf71d509")
+	)
+	(wire
+		(pts
+			(xy 177.8 156.21) (xy 191.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d2fdf0-8552-497b-a1bd-8e7f8d6e18af")
 	)
 	(wire
 		(pts
@@ -5880,6 +6502,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 140.97) (xy 168.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9313a429-ef20-43a8-ad6b-9a6897ef8446")
+	)
+	(wire
+		(pts
 			(xy 217.17 96.52) (xy 217.17 109.22)
 		)
 		(stroke
@@ -5947,6 +6579,16 @@
 			(type default)
 		)
 		(uuid "9c9bcecc-8ff0-41e7-8634-809270e0b8fc")
+	)
+	(wire
+		(pts
+			(xy 210.82 154.94) (xy 210.82 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07c4cac-5f34-46bf-b498-e43884fc2e85")
 	)
 	(wire
 		(pts
@@ -6157,6 +6799,16 @@
 			(type default)
 		)
 		(uuid "b9eb685a-e823-4a8e-b710-e7f45a819b56")
+	)
+	(wire
+		(pts
+			(xy 191.77 151.13) (xy 191.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6831cc-422e-4922-b4bf-2c845721b868")
 	)
 	(wire
 		(pts
@@ -6380,6 +7032,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 146.05) (xy 177.8 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88d9b6c-7ed8-4459-91a0-5400980c22e8")
+	)
+	(wire
+		(pts
 			(xy 40.64 97.79) (xy 54.61 97.79)
 		)
 		(stroke
@@ -6397,6 +7059,16 @@
 			(type default)
 		)
 		(uuid "db6f8c31-854b-453d-b9d2-130f36af05e2")
+	)
+	(wire
+		(pts
+			(xy 227.33 146.05) (xy 222.25 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc71a6f0-53df-4454-ac4a-f4452a13dcdf")
 	)
 	(wire
 		(pts
@@ -6470,6 +7142,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 156.21) (xy 227.33 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f64d8f-d62a-4b2d-8804-a3b8310e9fd5")
+	)
+	(wire
+		(pts
 			(xy 213.36 22.86) (xy 213.36 25.4)
 		)
 		(stroke
@@ -6507,6 +7189,16 @@
 			(type default)
 		)
 		(uuid "ea48b2a9-03b1-4092-bbf3-1dd72b42d96b")
+	)
+	(wire
+		(pts
+			(xy 168.91 140.97) (xy 168.91 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb56594c-078f-4720-8e64-79b4ca9926b4")
 	)
 	(wire
 		(pts
@@ -6567,6 +7259,26 @@
 			(type default)
 		)
 		(uuid "f4825955-f210-4ad8-a09e-3778b0027666")
+	)
+	(wire
+		(pts
+			(xy 191.77 156.21) (xy 210.82 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f483e123-4d08-43a8-abee-dcd137e5c490")
+	)
+	(wire
+		(pts
+			(xy 214.63 146.05) (xy 210.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe24df79-4e0d-41ef-aed5-00745655b5eb")
 	)
 	(wire
 		(pts
@@ -8457,6 +9169,75 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.33 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25d2ee1f-6862-411b-922a-664b71571788")
+		(property "Reference" "C15"
+			(at 230.124 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330u"
+			(at 230.378 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 228.2952 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 227.33 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3837b894-40fa-4772-941d-be8913acbfd7")
+		)
+		(pin "1"
+			(uuid "b48af725-16a7-4900-8ef7-395ee477e030")
+		)
+		(instances
+			(project ""
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10362,6 +11143,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:LM2596S-ADJ")
+		(at 191.77 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "640c3418-e7d0-4058-9f69-4f5261d1b7d3")
+		(property "Reference" "U5"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2596S-ADJ"
+			(at 191.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+			(at 193.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+			(at 191.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Adjustable 3A Step-Down Voltage Regulator, TO-263"
+			(at 191.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1abd9f23-d438-40d9-a1d8-c5c8378c9ba4")
+		)
+		(pin "1"
+			(uuid "8554f333-e58e-48af-a76c-66198817e7e5")
+		)
+		(pin "3"
+			(uuid "8abcb8bc-4e52-432b-9522-a7d3dd6d8a06")
+		)
+		(pin "2"
+			(uuid "e16be042-4778-4526-907d-bfcac649c99f")
+		)
+		(pin "5"
+			(uuid "949c4bb0-7b13-4221-816a-f9cf64f846a9")
+		)
+		(instances
+			(project ""
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 20.32 125.73 0)
 		(unit 1)
@@ -10421,6 +11281,73 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 218.44 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6589ad71-1cd1-4c23-acd1-e47c3b4523c1")
+		(property "Reference" "L1"
+			(at 218.44 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47u"
+			(at 218.44 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 218.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e19eaef-f11b-4000-a78d-e3a680ccd629")
+		)
+		(pin "2"
+			(uuid "da236037-7138-401c-8eea-3658c861a8e0")
+		)
+		(instances
+			(project ""
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -12334,6 +13261,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 168.91 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afaa5b07-8657-4e3c-9cce-f9ae6d4f3511")
+		(property "Reference" "C14"
+			(at 171.704 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 171.704 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 169.8752 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ed3982e-ff2c-4c3b-bfc6-1d840b7cdc7c")
+		)
+		(pin "1"
+			(uuid "61c9a9e4-f0ac-4915-a335-1a3735e6720a")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
 		(at 266.7 153.67 180)
 		(unit 1)
@@ -12538,6 +13534,92 @@
 			(project ""
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 210.82 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcd13618-34e9-44d2-a356-cf968f239dbb")
+		(property "Reference" "D7"
+			(at 208.915 151.765 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 208.915 149.225 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MELF"
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "236fc765-7e2f-4169-b22b-dc706d972f8a")
+		)
+		(pin "2"
+			(uuid "0471eafd-122b-4e72-b959-c85695b4eac6")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -14333,6 +15415,70 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcad9efe-16dc-4ad2-8361-01816c3b66c2")
+		(property "Reference" "#PWR048"
+			(at 191.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61ce4881-c266-4e18-832c-a4201e1c2152")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
