@@ -3657,6 +3657,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 90.17) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1104ba-5004-419c-afe5-d1cc46166201")
+	)
+	(wire
+		(pts
 			(xy 100.33 111.76) (xy 100.33 107.95)
 		)
 		(stroke
@@ -3697,16 +3707,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 90.17) (xy 138.43 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26619f58-ed94-440d-bfe9-c18028f973d0")
-	)
-	(wire
-		(pts
 			(xy 208.28 31.75) (xy 218.44 31.75)
 		)
 		(stroke
@@ -3717,7 +3717,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 100.33) (xy 130.81 100.33)
+			(xy 127 100.33) (xy 137.16 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3867,7 +3867,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 90.17) (xy 100.33 92.71)
+			(xy 100.33 83.82) (xy 100.33 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4297,6 +4297,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 83.82) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a91dfb-b79f-4879-bc58-b8b162d4dea2")
+	)
+	(wire
+		(pts
 			(xy 40.64 110.49) (xy 40.64 111.76)
 		)
 		(stroke
@@ -4487,16 +4497,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 105.41) (xy 138.43 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b09094-f514-42ae-870f-fdd095b46910")
-	)
-	(wire
-		(pts
 			(xy 190.5 31.75) (xy 190.5 49.53)
 		)
 		(stroke
@@ -4657,6 +4657,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 83.82) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d934c117-2075-4539-abca-af4b20364764")
+	)
+	(wire
+		(pts
 			(xy 40.64 92.71) (xy 54.61 92.71)
 		)
 		(stroke
@@ -4707,6 +4717,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 97.79) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33b577d-ff89-413c-bedc-bedd770aafdd")
+	)
+	(wire
+		(pts
 			(xy 113.03 100.33) (xy 115.57 100.33)
 		)
 		(stroke
@@ -4744,6 +4764,16 @@
 			(type default)
 		)
 		(uuid "e8962022-25fd-4f22-aea5-dfb6681e6969")
+	)
+	(wire
+		(pts
+			(xy 128.27 90.17) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eefb5f68-50bb-4a64-8eff-3ddf28d819df")
 	)
 	(wire
 		(pts
@@ -5525,7 +5555,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 100.33 90.17 0)
+		(at 100.33 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5533,7 +5563,7 @@
 		(dnp no)
 		(uuid "166cfda8-1293-407c-a0c3-6137a4abcf50")
 		(property "Reference" "#PWR051"
-			(at 100.33 93.98 0)
+			(at 100.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5572,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 100.33 86.614 0)
+			(at 100.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 90.17 0)
+			(at 100.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 90.17 0)
+			(at 100.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 100.33 90.17 0)
+			(at 100.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7218,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 115.316 0)
+			(at 100.33 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,16 +8792,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 135.89 100.33 0)
+		(at 137.16 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c3e56224-30f8-4d37-bab6-5513ca0c0177")
 		(property "Reference" "Q1"
-			(at 142.24 99.0599 0)
+			(at 138.43 84.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8809,7 @@
 			)
 		)
 		(property "Value" "IRF540N"
-			(at 142.24 101.5999 0)
+			(at 141.224 87.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8789,7 +8818,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 140.97 102.235 0)
+			(at 139.065 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +8829,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 140.97 104.14 0)
+			(at 140.97 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,7 +8839,7 @@
 			)
 		)
 		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 135.89 100.33 0)
+			(at 137.16 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +8932,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 138.43 90.17 0)
+		(at 128.27 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8911,7 +8940,7 @@
 		(dnp no)
 		(uuid "cd09d692-f1e5-4e66-b8b1-e01d53e60576")
 		(property "Reference" "#PWR052"
-			(at 138.43 93.98 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +8949,7 @@
 			)
 		)
 		(property "Value" "VinterA"
-			(at 138.43 86.614 0)
+			(at 128.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +8957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 90.17 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8937,7 +8966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 90.17 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,7 +8975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 138.43 90.17 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +9479,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 138.43 111.76 180)
+		(at 146.05 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9458,7 +9487,7 @@
 		(dnp no)
 		(uuid "ed0fe80e-1132-4cbb-a8d5-daf7b09f703c")
 		(property "Reference" "#PWR053"
-			(at 138.43 107.95 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9467,7 +9496,7 @@
 			)
 		)
 		(property "Value" "VinterB"
-			(at 138.43 115.316 0)
+			(at 146.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +9504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 111.76 0)
+			(at 146.05 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 111.76 0)
+			(at 146.05 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +9522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 138.43 111.76 0)
+			(at 146.05 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
