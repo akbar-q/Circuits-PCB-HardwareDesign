@@ -9724,7 +9724,7 @@
 			)
 		)
 		(property "Value" "VinterA"
-			(at 113.03 80.01 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
