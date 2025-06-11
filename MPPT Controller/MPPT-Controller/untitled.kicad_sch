@@ -3890,6 +3890,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 48.26) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509c3898-7720-40de-b6a7-1eb984886d80")
+	)
+	(wire
+		(pts
 			(xy 135.89 110.49) (xy 135.89 115.57)
 		)
 		(stroke
@@ -5235,6 +5245,28 @@
 		(uuid "f79d2737-e1ab-4672-94c2-c43c3ab2a51d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.5628 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM"
+		(shape input)
+		(at 52.07 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f93da63b-78bc-42b0-afd1-6fa9909f8273")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.228 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
