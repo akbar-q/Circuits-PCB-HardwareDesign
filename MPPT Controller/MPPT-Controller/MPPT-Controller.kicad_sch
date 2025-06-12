@@ -9701,7 +9701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF540N"
+		(property "Value" "IRL540N"
 			(at 133.604 82.042 90)
 			(effects
 				(font
