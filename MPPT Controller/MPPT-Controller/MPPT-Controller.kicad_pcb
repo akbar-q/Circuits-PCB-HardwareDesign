@@ -430,140 +430,6 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm"
-		(layer "F.Cu")
-		(uuid "098b0011-e04f-4e96-993f-76b5b9c8eb59")
-		(at 111.82 88.9)
-		(descr "C, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Non-Polar Electrolytic Capacitor")
-		(tags "C Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Non-Polar Electrolytic Capacitor")
-		(property "Reference" "C16"
-			(at 3.75 -9.25 0)
-			(layer "F.SilkS")
-			(uuid "271c06cf-9a3c-45ad-8974-962717b7493f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "470u"
-			(at 3.75 9.25 0)
-			(layer "F.Fab")
-			(uuid "148f4078-a08c-4751-9fc3-ff9c4f7f677e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "abf5f055-61e7-4c9a-b55c-f95f1af68820")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b54513b8-37ea-480e-b597-21ab81a35c97")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "C_*")
-		(path "/7594b0be-365f-4e4c-bdf9-3e9b30457b3d")
-		(sheetname "/")
-		(sheetfile "MPPT-Controller.kicad_sch")
-		(attr through_hole)
-		(fp_circle
-			(center 3.75 0)
-			(end 11.87 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "50353f81-5ebc-4233-9528-445f7c2689c7")
-		)
-		(fp_circle
-			(center 3.75 0)
-			(end 12 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "588504e6-8f81-49bd-a062-6e1063acbf0b")
-		)
-		(fp_circle
-			(center 3.75 0)
-			(end 11.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "f5a224b1-3416-4833-8cec-c5737d20d0e7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.75 0 0)
-			(layer "F.Fab")
-			(uuid "31d37ae6-1728-4856-934a-8586c2a63e05")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "VinterB")
-			(pintype "passive")
-			(uuid "4b67b4da-7099-4ea0-84e7-8558595b7997")
-		)
-		(pad "2" thru_hole circle
-			(at 7.5 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 15 "Net-(D10-A)")
-			(pintype "passive")
-			(uuid "b42aa519-b121-4a99-9a9c-1b6db88caff0")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D16.0mm_H25.0mm_P7.50mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Diode_SMD:D_SMC"
 		(layer "F.Cu")
 		(uuid "0b9be083-2890-483e-954a-b4cd0d98306f")
@@ -12607,140 +12473,6 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm"
-		(layer "F.Cu")
-		(uuid "948bc91c-46be-440e-a96f-ea0957490143")
-		(at 74.99 88.9)
-		(descr "C, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Non-Polar Electrolytic Capacitor")
-		(tags "C Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Non-Polar Electrolytic Capacitor")
-		(property "Reference" "C17"
-			(at 3.75 -9.25 0)
-			(layer "F.SilkS")
-			(uuid "b0cc8624-7235-4e5c-912a-1244a255f478")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "470u"
-			(at 3.75 9.25 0)
-			(layer "F.Fab")
-			(uuid "18f678c9-2235-480c-b6d1-275075daab83")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dccc4305-e7f5-428e-837c-ec5177973f47")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "664b4576-9f55-4d84-8011-0775f8b21468")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "C_*")
-		(path "/d59695bb-f362-4790-b293-30ba73590068")
-		(sheetname "/")
-		(sheetfile "MPPT-Controller.kicad_sch")
-		(attr through_hole)
-		(fp_circle
-			(center 3.75 0)
-			(end 11.87 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "f6418117-2745-4c9a-9412-5735dfabae48")
-		)
-		(fp_circle
-			(center 3.75 0)
-			(end 12 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "81d34084-6dcc-4386-83c1-f0715eadfb35")
-		)
-		(fp_circle
-			(center 3.75 0)
-			(end 11.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "565becc9-fbf3-4b0f-8399-df8ed0e1ef1b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.75 0 0)
-			(layer "F.Fab")
-			(uuid "d99b6640-212e-4939-9846-43d371499f4f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "VinterA")
-			(pintype "passive")
-			(uuid "3857b40f-f8cc-49fa-8aa6-6f91c73f7228")
-		)
-		(pad "2" thru_hole circle
-			(at 7.5 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 15 "Net-(D10-A)")
-			(pintype "passive")
-			(uuid "fe7285b2-7c44-4da7-90fd-2355fa78689d")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D16.0mm_H25.0mm_P7.50mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "96a1d1cd-18ae-42e0-97fd-7c3f015db4f5")
@@ -15705,11 +15437,11 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "bdd4db42-50a4-415a-8934-cd2a088a5db7")
-		(at 95.575 90.17 -90)
+		(at 74.5 97.5 180)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q1"
-			(at 2.54 -4.27 90)
+			(at 2.54 -4.27 0)
 			(layer "F.SilkS")
 			(uuid "b2f56cc8-35b8-4fa5-8c7e-4893eccee425")
 			(effects
@@ -15720,7 +15452,7 @@
 			)
 		)
 		(property "Value" "IRL540N"
-			(at 2.54 2.5 90)
+			(at 2.54 2.5 0)
 			(layer "F.Fab")
 			(uuid "ddaf6b32-3724-4293-bbbc-b465e69333c2")
 			(effects
@@ -15731,7 +15463,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c41c2d5-aa86-448b-ac68-bd2dec8be709")
@@ -15743,7 +15475,7 @@
 			)
 		)
 		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f3d6817d-5069-417a-a707-4de5e6dbbab3")
@@ -15759,6 +15491,36 @@
 		(sheetname "/")
 		(sheetfile "MPPT-Controller.kicad_sch")
 		(attr through_hole)
+		(fp_line
+			(start 7.66 -3.27)
+			(end 7.66 1.371)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ee1770ac-2cd5-485f-91aa-60d87e114f3c")
+		)
+		(fp_line
+			(start 4.391 -3.27)
+			(end 4.391 -1.76)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "76e0f383-7a2a-46e6-96d7-c96b4356163a")
+		)
+		(fp_line
+			(start 0.69 -3.27)
+			(end 0.69 -1.76)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a814d7a2-1eea-4903-8d4f-e7b94a89b7ea")
+		)
 		(fp_line
 			(start -2.58 1.371)
 			(end 7.66 1.371)
@@ -15781,16 +15543,6 @@
 		)
 		(fp_line
 			(start -2.58 -3.27)
-			(end -2.58 1.371)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7656a309-67db-4a80-89ce-e4a69d013a9b")
-		)
-		(fp_line
-			(start -2.58 -3.27)
 			(end 7.66 -3.27)
 			(stroke
 				(width 0.12)
@@ -15800,44 +15552,14 @@
 			(uuid "f5a1b216-5252-4982-aa9e-1d6bd6639b48")
 		)
 		(fp_line
-			(start 0.69 -3.27)
-			(end 0.69 -1.76)
+			(start -2.58 -3.27)
+			(end -2.58 1.371)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a814d7a2-1eea-4903-8d4f-e7b94a89b7ea")
-		)
-		(fp_line
-			(start 4.391 -3.27)
-			(end 4.391 -1.76)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "76e0f383-7a2a-46e6-96d7-c96b4356163a")
-		)
-		(fp_line
-			(start 7.66 -3.27)
-			(end 7.66 1.371)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ee1770ac-2cd5-485f-91aa-60d87e114f3c")
-		)
-		(fp_line
-			(start -2.71 1.51)
-			(end 7.79 1.51)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "893346cf-fb64-45cd-97f8-0eb353e66a61")
+			(uuid "7656a309-67db-4a80-89ce-e4a69d013a9b")
 		)
 		(fp_line
 			(start 7.79 1.51)
@@ -15850,16 +15572,6 @@
 			(uuid "22b7ce66-cec6-4533-8559-6fef806f5ab1")
 		)
 		(fp_line
-			(start -2.71 -3.4)
-			(end -2.71 1.51)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "22fe3736-6fd3-4c7a-af9f-48fa58b02be6")
-		)
-		(fp_line
 			(start 7.79 -3.4)
 			(end -2.71 -3.4)
 			(stroke
@@ -15870,14 +15582,24 @@
 			(uuid "f1c5212a-4b60-45b8-87ee-5e1a707021a0")
 		)
 		(fp_line
-			(start -2.46 1.25)
-			(end 7.54 1.25)
+			(start -2.71 1.51)
+			(end 7.79 1.51)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "013b4eaf-8a12-4ed5-a3d6-960ea54b7b4e")
+			(layer "F.CrtYd")
+			(uuid "893346cf-fb64-45cd-97f8-0eb353e66a61")
+		)
+		(fp_line
+			(start -2.71 -3.4)
+			(end -2.71 1.51)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "22fe3736-6fd3-4c7a-af9f-48fa58b02be6")
 		)
 		(fp_line
 			(start 7.54 1.25)
@@ -15888,6 +15610,46 @@
 			)
 			(layer "F.Fab")
 			(uuid "3ad15f62-334e-4d82-bc4f-e083f4392050")
+		)
+		(fp_line
+			(start 7.54 -3.15)
+			(end -2.46 -3.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "22e3c2f7-0f24-4109-80ba-aaf7f93cb926")
+		)
+		(fp_line
+			(start 4.39 -3.15)
+			(end 4.39 -1.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74c7568f-561e-4f3b-900e-7d6e1d70e74c")
+		)
+		(fp_line
+			(start 0.69 -3.15)
+			(end 0.69 -1.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "66324c4c-5331-48b2-85dc-3aecf948c775")
+		)
+		(fp_line
+			(start -2.46 1.25)
+			(end 7.54 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "013b4eaf-8a12-4ed5-a3d6-960ea54b7b4e")
 		)
 		(fp_line
 			(start -2.46 -1.88)
@@ -15909,38 +15671,8 @@
 			(layer "F.Fab")
 			(uuid "9aa6006e-2b75-4b50-acfa-2d28683fdadd")
 		)
-		(fp_line
-			(start 0.69 -3.15)
-			(end 0.69 -1.88)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "66324c4c-5331-48b2-85dc-3aecf948c775")
-		)
-		(fp_line
-			(start 4.39 -3.15)
-			(end 4.39 -1.88)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "74c7568f-561e-4f3b-900e-7d6e1d70e74c")
-		)
-		(fp_line
-			(start 7.54 -3.15)
-			(end -2.46 -3.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "22e3c2f7-0f24-4109-80ba-aaf7f93cb926")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -4.27 90)
+			(at 2.54 -4.27 0)
 			(layer "F.Fab")
 			(uuid "48b3879e-eead-4de3-93ed-32b9df6d8cb1")
 			(effects
@@ -15951,7 +15683,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 270)
+			(at 0 0 180)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -15962,7 +15694,7 @@
 			(uuid "844cb4ce-1deb-4fa5-b318-3e985e13977c")
 		)
 		(pad "2" thru_hole oval
-			(at 2.54 0 270)
+			(at 2.54 0 180)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -15973,7 +15705,7 @@
 			(uuid "6ccaa445-66b1-4af0-b7d5-bbfd6a9c4277")
 		)
 		(pad "3" thru_hole oval
-			(at 5.08 0 270)
+			(at 5.08 0 180)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -22355,6 +22087,145 @@
 			)
 		)
 	)
+	(footprint "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm"
+		(layer "B.Cu")
+		(uuid "098b0011-e04f-4e96-993f-76b5b9c8eb59")
+		(at 108.25 107.5 180)
+		(descr "C, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Non-Polar Electrolytic Capacitor")
+		(tags "C Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Non-Polar Electrolytic Capacitor")
+		(property "Reference" "C16"
+			(at 3.75 9.25 0)
+			(layer "B.SilkS")
+			(uuid "271c06cf-9a3c-45ad-8974-962717b7493f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "470u"
+			(at 3.75 -9.25 0)
+			(layer "B.Fab")
+			(uuid "148f4078-a08c-4751-9fc3-ff9c4f7f677e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "abf5f055-61e7-4c9a-b55c-f95f1af68820")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b54513b8-37ea-480e-b597-21ab81a35c97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/7594b0be-365f-4e4c-bdf9-3e9b30457b3d")
+		(sheetname "/")
+		(sheetfile "MPPT-Controller.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 3.75 0)
+			(end 11.87 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "50353f81-5ebc-4233-9528-445f7c2689c7")
+		)
+		(fp_circle
+			(center 3.75 0)
+			(end 12 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "588504e6-8f81-49bd-a062-6e1063acbf0b")
+		)
+		(fp_circle
+			(center 3.75 0)
+			(end 11.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "f5a224b1-3416-4833-8cec-c5737d20d0e7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.75 0 0)
+			(layer "B.Fab")
+			(uuid "31d37ae6-1728-4856-934a-8586c2a63e05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "VinterB")
+			(pintype "passive")
+			(uuid "4b67b4da-7099-4ea0-84e7-8558595b7997")
+		)
+		(pad "2" thru_hole circle
+			(at 7.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 15 "Net-(D10-A)")
+			(pintype "passive")
+			(uuid "b42aa519-b121-4a99-9a9c-1b6db88caff0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D16.0mm_H25.0mm_P7.50mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Diode_SMD:D_MELF"
 		(layer "B.Cu")
 		(uuid "35e6178c-8dec-4627-9f03-ca6342b21739")
@@ -23142,6 +23013,145 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_10.4x10.4_H4.8.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm"
+		(layer "B.Cu")
+		(uuid "948bc91c-46be-440e-a96f-ea0957490143")
+		(at 68.25 107.5)
+		(descr "C, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Non-Polar Electrolytic Capacitor")
+		(tags "C Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Non-Polar Electrolytic Capacitor")
+		(property "Reference" "C17"
+			(at 3.75 9.25 0)
+			(layer "B.SilkS")
+			(uuid "b0cc8624-7235-4e5c-912a-1244a255f478")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "470u"
+			(at 3.75 -9.25 0)
+			(layer "B.Fab")
+			(uuid "18f678c9-2235-480c-b6d1-275075daab83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dccc4305-e7f5-428e-837c-ec5177973f47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "664b4576-9f55-4d84-8011-0775f8b21468")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/d59695bb-f362-4790-b293-30ba73590068")
+		(sheetname "/")
+		(sheetfile "MPPT-Controller.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 3.75 0)
+			(end 11.87 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "f6418117-2745-4c9a-9412-5735dfabae48")
+		)
+		(fp_circle
+			(center 3.75 0)
+			(end 12 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "81d34084-6dcc-4386-83c1-f0715eadfb35")
+		)
+		(fp_circle
+			(center 3.75 0)
+			(end 11.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "565becc9-fbf3-4b0f-8399-df8ed0e1ef1b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.75 0 0)
+			(layer "B.Fab")
+			(uuid "d99b6640-212e-4939-9846-43d371499f4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "VinterA")
+			(pintype "passive")
+			(uuid "3857b40f-f8cc-49fa-8aa6-6f91c73f7228")
+		)
+		(pad "2" thru_hole circle
+			(at 7.5 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 15 "Net-(D10-A)")
+			(pintype "passive")
+			(uuid "fe7285b2-7c44-4da7-90fd-2355fa78689d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D16.0mm_H25.0mm_P7.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26387,8 +26397,7 @@
 		(polygon
 			(pts
 				(xy 161.417 42.418) (xy 155.448 42.418) (xy 154.94 42.672) (xy 154.94 49.53) (xy 147.193 49.53)
-				(xy 147.193 54.864) (xy 154.94 54.737) (xy 154.94 54.737) (xy 156.845 54.737) (xy 156.845 44.069)
-				(xy 161.29 44.069)
+				(xy 147.193 54.864) (xy 154.94 54.737) (xy 156.845 54.737) (xy 156.845 44.069) (xy 161.29 44.069)
 			)
 		)
 		(filled_polygon
