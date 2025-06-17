@@ -8537,7 +8537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Heatsink:Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35"
+		(property "Footprint" "Heatsink:Heatsink_AAVID_576802B03900G"
 			(at 195.8848 114.3 0)
 			(effects
 				(font
