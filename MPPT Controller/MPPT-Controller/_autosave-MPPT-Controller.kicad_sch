@@ -10342,7 +10342,8 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 179.07 54.61 270)
+		(at 179.07 54.61 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10350,7 +10351,7 @@
 		(dnp no)
 		(uuid "bcd13618-34e9-44d2-a356-cf968f239dbb")
 		(property "Reference" "D7"
-			(at 177.165 55.245 90)
+			(at 180.975 55.245 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,7 +10360,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 177.165 52.705 90)
+			(at 180.975 52.705 90)
 			(effects
 				(font
 					(size 1.27 1.27)
