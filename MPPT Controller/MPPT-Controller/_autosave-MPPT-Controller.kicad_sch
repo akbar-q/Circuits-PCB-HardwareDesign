@@ -10009,7 +10009,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 31.75 90)
+		(at 160.02 31.75 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10017,7 +10018,7 @@
 		(dnp no)
 		(uuid "a7881485-0e15-45a2-a058-a1cfeccfc56f")
 		(property "Reference" "R1"
-			(at 161.544 34.036 90)
+			(at 158.496 34.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10026,7 +10027,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 161.544 31.75 90)
+			(at 158.496 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
