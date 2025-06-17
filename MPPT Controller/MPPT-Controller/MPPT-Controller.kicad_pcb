@@ -433,11 +433,11 @@
 	(footprint "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "098b0011-e04f-4e96-993f-76b5b9c8eb59")
-		(at 206.91 39.595)
+		(at 122 91.75 90)
 		(descr "C, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C16"
-			(at 3.75 -9.25 0)
+			(at 3.75 -9.25 90)
 			(layer "F.SilkS")
 			(uuid "271c06cf-9a3c-45ad-8974-962717b7493f")
 			(effects
@@ -448,7 +448,7 @@
 			)
 		)
 		(property "Value" "470u"
-			(at 3.75 9.25 0)
+			(at 3.75 9.25 90)
 			(layer "F.Fab")
 			(uuid "148f4078-a08c-4751-9fc3-ff9c4f7f677e")
 			(effects
@@ -459,7 +459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "abf5f055-61e7-4c9a-b55c-f95f1af68820")
@@ -471,7 +471,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b54513b8-37ea-480e-b597-21ab81a35c97")
@@ -521,7 +521,7 @@
 			(uuid "f5a224b1-3416-4833-8cec-c5737d20d0e7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.75 0 0)
+			(at 3.75 0 90)
 			(layer "F.Fab")
 			(uuid "31d37ae6-1728-4856-934a-8586c2a63e05")
 			(effects
@@ -532,7 +532,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -542,7 +542,7 @@
 			(uuid "4b67b4da-7099-4ea0-84e7-8558595b7997")
 		)
 		(pad "2" thru_hole circle
-			(at 7.5 0)
+			(at 7.5 0 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -9238,7 +9238,7 @@
 	(footprint "Resistor_SMD:R_4020_10251Metric"
 		(layer "F.Cu")
 		(uuid "66b38a6c-e6ca-48bc-b633-3f2a9d8f7537")
-		(at 225.76 55.895)
+		(at 135.89 116.84)
 		(descr "Resistor SMD 4020 (10251 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://datasheet.octopart.com/HVC0603T5004FET-Ohmite-datasheet-26699797.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "LR3"
@@ -15506,7 +15506,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "bb61f58c-9df4-448c-a263-2ed918af3e43")
-		(at 82.9575 101.6)
+		(at 94 83)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
@@ -16419,7 +16419,7 @@
 	(footprint "Resistor_SMD:R_4020_10251Metric"
 		(layer "F.Cu")
 		(uuid "c2ee6b9d-69fa-4994-8a59-b8c3a11fb12f")
-		(at 225.76 49.045)
+		(at 96.7875 116.84)
 		(descr "Resistor SMD 4020 (10251 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://datasheet.octopart.com/HVC0603T5004FET-Ohmite-datasheet-26699797.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "LR2"
@@ -17572,7 +17572,7 @@
 	(footprint "Resistor_SMD:R_4020_10251Metric"
 		(layer "F.Cu")
 		(uuid "cf896660-02eb-45e8-ac0e-12795bd28aee")
-		(at 225.76 62.745)
+		(at 148.59 116.84)
 		(descr "Resistor SMD 4020 (10251 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://datasheet.octopart.com/HVC0603T5004FET-Ohmite-datasheet-26699797.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "LR4"
@@ -20189,7 +20189,7 @@
 	(footprint "Resistor_SMD:R_4020_10251Metric"
 		(layer "F.Cu")
 		(uuid "f4fc38fa-fa6c-4661-a132-2dcc9212a96a")
-		(at 225.76 42.195)
+		(at 84.0875 116.84)
 		(descr "Resistor SMD 4020 (10251 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://datasheet.octopart.com/HVC0603T5004FET-Ohmite-datasheet-26699797.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "LR1"
