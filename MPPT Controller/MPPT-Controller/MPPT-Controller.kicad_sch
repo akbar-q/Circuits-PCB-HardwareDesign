@@ -4646,6 +4646,18 @@
 		(uuid 89d0902e-5866-43e3-9a2d-f79451341da6)
 	)
 	(rectangle
+		(start 223.52 72.39)
+		(end 281.94 129.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aca27705-0d96-435c-85d3-8df756e397ac)
+	)
+	(rectangle
 		(start 13.97 13.97)
 		(end 64.77 71.12)
 		(stroke
@@ -4668,6 +4680,18 @@
 			(type none)
 		)
 		(uuid bff0df24-f236-4a55-80fa-9d12b3e313a1)
+	)
+	(rectangle
+		(start 223.52 13.97)
+		(end 281.94 71.12)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f41be1f0-f1d8-4b39-9c8e-786fa4cb96b7)
 	)
 	(rectangle
 		(start 171.45 72.39)
@@ -4726,6 +4750,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "046e64e3-b833-405e-9ca9-73bf8fb4b2c0")
+	)
+	(junction
+		(at 265.43 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0516dfae-fac2-42bd-b6b5-d5f97b4fbc55")
+	)
+	(junction
+		(at 259.08 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a73363a-ea29-480f-ba54-72942f602eec")
 	)
 	(junction
 		(at 160.02 59.69)
@@ -4842,6 +4878,12 @@
 		(uuid "9767560f-f336-4401-86cb-72b70a4a727a")
 	)
 	(junction
+		(at 236.22 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97ef5706-e67e-4cc2-8b35-98a0c0f37b00")
+	)
+	(junction
 		(at 203.2 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4912,6 +4954,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7ec6c82-a5dd-461c-b719-f060baa26d2d")
+	)
+	(junction
+		(at 242.57 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec8313f2-3d07-4a45-ad10-7e9a2f4a1bc9")
 	)
 	(junction
 		(at 191.77 31.75)
@@ -5019,6 +5067,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 104.14) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab0f440-12aa-4680-90a1-5da49807dbe8")
+	)
+	(wire
+		(pts
+			(xy 237.49 97.79) (xy 242.57 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1ed9aa-1c6c-4eb5-921a-1f17978eb1ce")
+	)
+	(wire
+		(pts
 			(xy 91.44 152.4) (xy 91.44 157.48)
 		)
 		(stroke
@@ -5056,6 +5124,16 @@
 			(type default)
 		)
 		(uuid "0d4c9f1f-7c09-4841-aea1-e0da1d72364a")
+	)
+	(wire
+		(pts
+			(xy 265.43 101.6) (xy 265.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9e3ce9-267d-4e66-b848-347eb2ed2b29")
 	)
 	(wire
 		(pts
@@ -5259,6 +5337,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 43.18) (xy 242.57 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285e6993-19bf-4814-8767-c33815dbd228")
+	)
+	(wire
+		(pts
 			(xy 203.2 31.75) (xy 203.2 49.53)
 		)
 		(stroke
@@ -5319,6 +5407,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 101.6) (xy 242.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7d298f-64c6-402d-8a06-7286a57b5324")
+	)
+	(wire
+		(pts
 			(xy 55.88 49.53) (xy 55.88 55.88)
 		)
 		(stroke
@@ -5346,6 +5444,16 @@
 			(type default)
 		)
 		(uuid "32f89240-0ba7-44bc-9dde-ffe4d6321672")
+	)
+	(wire
+		(pts
+			(xy 259.08 43.18) (xy 259.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ce4479-381e-4e8a-9e59-629cb91a2e58")
 	)
 	(wire
 		(pts
@@ -5396,6 +5504,16 @@
 			(type default)
 		)
 		(uuid "3d2b95a5-928a-49bd-b202-11eaf8bacf82")
+	)
+	(wire
+		(pts
+			(xy 237.49 95.25) (xy 242.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3faf3e8e-84b5-4b06-b780-88a944ce1bac")
 	)
 	(wire
 		(pts
@@ -5499,6 +5617,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 101.6) (xy 248.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f1014b-17f3-4bfe-9aeb-0c37eb9957d0")
+	)
+	(wire
+		(pts
 			(xy 181.61 92.71) (xy 181.61 95.25)
 		)
 		(stroke
@@ -5526,6 +5654,16 @@
 			(type default)
 		)
 		(uuid "59084222-c894-4bc6-93d8-204a3a99d121")
+	)
+	(wire
+		(pts
+			(xy 242.57 87.63) (xy 242.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a00db6a-f07b-4570-adbf-b52fc239f348")
 	)
 	(wire
 		(pts
@@ -5596,6 +5734,16 @@
 			(type default)
 		)
 		(uuid "6091cd90-9410-4334-b181-a940dab0dd38")
+	)
+	(wire
+		(pts
+			(xy 259.08 53.34) (xy 259.08 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626a2263-22c2-47fe-9aeb-6c796a0ad738")
 	)
 	(wire
 		(pts
@@ -5689,6 +5837,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 29.21) (xy 259.08 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a7d2d0-3bf4-4111-82aa-6bb1e5d66b41")
+	)
+	(wire
+		(pts
 			(xy 156.21 31.75) (xy 146.05 31.75)
 		)
 		(stroke
@@ -5756,6 +5914,16 @@
 			(type default)
 		)
 		(uuid "7d9e863d-84de-4822-a412-39ec2325f6b8")
+	)
+	(wire
+		(pts
+			(xy 242.57 97.79) (xy 242.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80679703-0ac3-4f42-a7c1-d136f956c9a0")
 	)
 	(wire
 		(pts
@@ -5989,6 +6157,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 40.64) (xy 236.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1378ab8-886d-4909-a40b-21166f5a20b2")
+	)
+	(wire
+		(pts
 			(xy 151.13 157.48) (xy 151.13 160.02)
 		)
 		(stroke
@@ -6059,6 +6237,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 53.34) (xy 236.22 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74feacc-483d-4178-9b3b-6ffb1d3dafd5")
+	)
+	(wire
+		(pts
 			(xy 107.95 49.53) (xy 107.95 55.88)
 		)
 		(stroke
@@ -6066,6 +6254,16 @@
 			(type default)
 		)
 		(uuid "a79840e6-9352-4ddf-bbf7-3e23010cd368")
+	)
+	(wire
+		(pts
+			(xy 259.08 40.64) (xy 259.08 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8786d28-2061-4529-901d-081a34968771")
 	)
 	(wire
 		(pts
@@ -6249,6 +6447,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 111.76) (xy 265.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3fffd5b-8d3d-4469-a16c-6f6a0a94462f")
+	)
+	(wire
+		(pts
 			(xy 107.95 114.3) (xy 107.95 104.14)
 		)
 		(stroke
@@ -6289,6 +6497,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 43.18) (xy 236.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c833d93f-b6ac-412e-88d8-89777c4a1169")
+	)
+	(wire
+		(pts
 			(xy 107.95 22.86) (xy 107.95 31.75)
 		)
 		(stroke
@@ -6319,6 +6537,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 43.18) (xy 264.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce548a44-3da3-42c9-89ec-a06cc102c56d")
+	)
+	(wire
+		(pts
 			(xy 27.94 80.01) (xy 27.94 81.28)
 		)
 		(stroke
@@ -6326,6 +6554,16 @@
 			(type default)
 		)
 		(uuid "cec870cb-09d3-4bbd-bf51-71544bdb88ea")
+	)
+	(wire
+		(pts
+			(xy 265.43 87.63) (xy 265.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefdf396-db2a-476e-bc6c-f9343cee354e")
 	)
 	(wire
 		(pts
@@ -6346,6 +6584,16 @@
 			(type default)
 		)
 		(uuid "d23d8c3c-0960-44eb-877e-ae14dbe26ef1")
+	)
+	(wire
+		(pts
+			(xy 242.57 111.76) (xy 242.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36b4529-b9b1-4bfc-9899-ca74d9dd568b")
 	)
 	(wire
 		(pts
@@ -6529,6 +6777,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 95.25) (xy 265.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7bce9a-3289-4ae6-850d-58b6c987bba3")
+	)
+	(wire
+		(pts
 			(xy 148.59 157.48) (xy 151.13 157.48)
 		)
 		(stroke
@@ -6546,6 +6804,16 @@
 			(type default)
 		)
 		(uuid "f1e0022c-8168-4f25-9ce9-9d4ffc52c5ab")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f15003-cd7f-450c-a9bf-2b92e5a568a0")
 	)
 	(wire
 		(pts
@@ -6576,6 +6844,16 @@
 			(type default)
 		)
 		(uuid "f3805617-59e4-4cc5-9b6e-2675770cf5ab")
+	)
+	(wire
+		(pts
+			(xy 260.35 97.79) (xy 265.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47443a5-6731-4b6a-bd16-475a03961027")
 	)
 	(wire
 		(pts
@@ -6649,6 +6927,26 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 101.6) (xy 271.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb4d888d-85d9-4389-8a22-6ec871131452")
+	)
+	(wire
+		(pts
+			(xy 236.22 29.21) (xy 236.22 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb7dac8-76c7-48df-bcfb-c0ebd4ce3b82")
+	)
+	(wire
+		(pts
 			(xy 46.99 167.64) (xy 31.75 167.64)
 		)
 		(stroke
@@ -6666,6 +6964,38 @@
 			(type default)
 		)
 		(uuid "fe1c925e-fc59-40a5-b114-fe8c6bac53ba")
+	)
+	(wire
+		(pts
+			(xy 265.43 97.79) (xy 265.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe71edb0-f8de-4705-8616-b61a74ff90e5")
+	)
+	(global_label "Aux2"
+		(shape input)
+		(at 271.78 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0153393d-f7ba-46f9-a404-7bdb6a35dde5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.2404 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "IdiffB"
 		(shape input)
@@ -6685,6 +7015,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AmbientT"
+		(shape input)
+		(at 242.57 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ea4b052-484f-468d-9a93-26d19ba82fb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.0218 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6724,6 +7076,28 @@
 		(uuid "25872254-3cb1-49ec-99f6-b46134680ccc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 95.25 60.8609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Aux1"
+		(shape input)
+		(at 76.2 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27c92388-8277-41a7-ac7e-b30237024233")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.7396 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6817,6 +7191,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Aux2"
+		(shape input)
+		(at 129.54 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6cccf445-865f-4d23-9ab9-18023840def5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.0796 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Aux1"
+		(shape input)
+		(at 248.92 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7044f2d3-ab4d-424e-a79c-463da7b33833")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.3804 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6949,6 +7367,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HeatsinkT"
+		(shape input)
+		(at 264.16 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "954d7ba1-afe5-4268-bb4e-fd10bdf19c0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.2166 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7126,6 +7566,136 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 242.57 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01354277-6d60-499a-ae58-44715ee33cf1")
+		(property "Reference" "#PWR066"
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 242.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcf747cb-1d9c-4a52-a319-a636478d3238")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 236.22 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02099aad-50fa-463b-b194-ad56432d8101")
+		(property "Reference" "#PWR062"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be1e7e4e-e901-4632-96c5-29d7f26235f5")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR062")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8365,6 +8935,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 236.22 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "372ad6a2-893e-4d0b-a27d-c944c6a5b3c1")
+		(property "Reference" "R26"
+			(at 241.554 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 241.3 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 237.998 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e307838f-289c-4660-8b68-1a933a282b35")
+		)
+		(pin "2"
+			(uuid "ca09e19a-8dc4-4a53-b8fb-3f5f8ca10052")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3caf91c6-0833-4236-9b89-a7cd7ed4d9cb")
+		(property "Reference" "#PWR063"
+			(at 236.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d179ae34-8e24-408b-b4e1-24baccdb4dd3")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 198.12 137.16 0)
 		(unit 1)
@@ -8424,6 +9128,71 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 259.08 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e57f093-cbb3-4f2b-91d9-93bb3affa42b")
+		(property "Reference" "#PWR064"
+			(at 259.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 259.08 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7de2d40-a41e-411d-9d50-ce85f57c3ae3")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8496,7 +9265,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 232.41 130.81 0)
+		(at 259.08 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8505,7 +9274,7 @@
 		(fields_autoplaced yes)
 		(uuid "48117a75-ba35-40cf-9b33-25bf83750f27")
 		(property "Reference" "TH2"
-			(at 234.95 129.8574 0)
+			(at 261.62 35.8774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,8 +9282,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
-			(at 234.95 132.3974 0)
+		(property "Value" "NTC"
+			(at 261.62 38.4174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +9292,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
-			(at 232.41 129.54 0)
+			(at 259.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +9301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 129.54 0)
+			(at 259.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,7 +9310,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 232.41 130.81 0)
+			(at 259.08 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,6 +9395,70 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "LR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dd56719-b714-4e51-afb5-aeaad780ea83")
+		(property "Reference" "#PWR069"
+			(at 265.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d500bf0-d3d7-44dd-8914-ccdd89a3c009")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9605,6 +10438,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 232.41 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6895559e-98bd-4c87-bbe0-c2d14cc1b26d")
+		(property "Reference" "J7"
+			(at 233.045 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 233.045 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b9a225b-5062-4231-986c-68e75e03f680")
+		)
+		(pin "2"
+			(uuid "9fd0ebf4-ec0d-4480-8008-56138b1395ba")
+		)
+		(instances
+			(project ""
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 55.88 45.72 0)
 		(unit 1)
@@ -9668,6 +10569,76 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bd8722b-d376-4e48-bb98-b8cac1bfe7b8")
+		(property "Reference" "R28"
+			(at 247.904 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 247.65 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 244.348 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbc4ae5c-2b9f-4a7d-b8df-d04006762e41")
+		)
+		(pin "2"
+			(uuid "7cea5ff8-4d00-4cdc-8d79-511a15bb35e0")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -9802,6 +10773,70 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7372f71a-d282-4684-bb04-d8945c4fd6f7")
+		(property "Reference" "#PWR067"
+			(at 242.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c220e49-6583-48dd-b974-d3402072e510")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9946,6 +10981,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 255.27 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79a8ebe0-3975-4824-8d3f-0301f1843f87")
+		(property "Reference" "J8"
+			(at 255.905 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 255.905 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 255.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 255.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d9f4830-8c24-4f9a-968d-9bc307cd52df")
+		)
+		(pin "2"
+			(uuid "79a31088-18d7-4ab4-9f7a-92e58400f0aa")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 182.88 0)
 		(unit 1)
@@ -10005,6 +11108,76 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d931d52-caaa-491c-a8cc-490fd976e5dc")
+		(property "Reference" "R27"
+			(at 264.414 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 264.16 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 260.858 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38f41d27-a39f-47df-92f6-5ed5e62e88fc")
+		)
+		(pin "2"
+			(uuid "11c5c7e2-81f2-40f5-8d2a-4de94f3e9306")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11322,6 +12495,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab24afd6-ef5c-4231-ad2a-06d06a54995a")
+		(property "Reference" "R29"
+			(at 270.764 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 270.51 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 267.208 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3a944e1-b38b-49d2-8d4e-336fcc37b0d8")
+		)
+		(pin "2"
+			(uuid "09562932-87dc-4134-84b0-70aaa091cc00")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 137.16 53.34 0)
 		(unit 1)
@@ -12014,7 +13257,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 232.41 115.57 0)
+		(at 236.22 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12023,7 +13266,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce2bac32-fd34-474e-bc37-f65a47393b51")
 		(property "Reference" "TH1"
-			(at 234.95 114.6174 0)
+			(at 238.76 35.8774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12031,8 +13274,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
-			(at 234.95 117.1574 0)
+		(property "Value" "NTC"
+			(at 238.76 38.4174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12041,7 +13284,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
-			(at 232.41 114.3 0)
+			(at 236.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,7 +13293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 114.3 0)
+			(at 236.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12059,7 +13302,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 232.41 115.57 0)
+			(at 236.22 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12077,6 +13320,70 @@
 			(project ""
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cee5ac74-a38a-44d4-a246-d11d5f407a82")
+		(property "Reference" "#PWR065"
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c760d73-8a2d-450a-8f0d-93388cd5342c")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -13117,6 +14424,71 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 265.43 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb088a56-0ad5-4ad5-a329-3cb67f1dbc63")
+		(property "Reference" "#PWR068"
+			(at 265.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 265.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1bd2775e-d52d-4b48-9719-39399757d2a1")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
