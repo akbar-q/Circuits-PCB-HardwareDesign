@@ -4652,8 +4652,8 @@
 		(uuid 415ddeca-7a96-4cea-8f08-be49fd3a7f20)
 	)
 	(rectangle
-		(start 66.04 130.81)
-		(end 170.18 196.85)
+		(start -38.1 130.81)
+		(end -142.24 196.85)
 		(stroke
 			(width 0)
 			(type default)
