@@ -7309,7 +7309,7 @@
 			)
 		)
 	)
-	(global_label "VoltIn"
+	(global_label "VoltOut"
 		(shape input)
 		(at 129.54 101.6 180)
 		(fields_autoplaced yes)
@@ -7321,7 +7321,7 @@
 		)
 		(uuid "736fd66b-f8b5-46f7-91ca-28b9d61cc162")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.1725 101.6 0)
+			(at 119.7211 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +7529,7 @@
 			)
 		)
 	)
-	(global_label "IdiffA"
+	(global_label "OdiffA"
 		(shape input)
 		(at 129.54 96.52 180)
 		(fields_autoplaced yes)
@@ -7541,7 +7541,7 @@
 		)
 		(uuid "dd06be6d-f0e0-432c-a663-64f58c91a4e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.6562 96.52 0)
+			(at 120.9305 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +7595,7 @@
 			)
 		)
 	)
-	(global_label "IdiffB"
+	(global_label "OdiffB"
 		(shape input)
 		(at 129.54 99.06 180)
 		(fields_autoplaced yes)
@@ -7607,7 +7607,7 @@
 		)
 		(uuid "f69d8878-326c-4b31-8fda-9b61427a0967")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.4748 99.06 0)
+			(at 120.7491 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
