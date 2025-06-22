@@ -5737,16 +5737,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 118.11) (xy 27.94 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b3cf7e2-5afb-40d5-b85c-0791cbd54d13")
-	)
-	(wire
-		(pts
 			(xy 55.88 22.86) (xy 55.88 31.75)
 		)
 		(stroke
@@ -5954,6 +5944,16 @@
 			(type default)
 		)
 		(uuid "783735a3-70b3-406d-9d81-7d89f48197c1")
+	)
+	(wire
+		(pts
+			(xy 25.4 118.11) (xy 27.94 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a3630d-6c62-4500-b4c3-fd1df2005d0a")
 	)
 	(wire
 		(pts
@@ -12299,7 +12299,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 20.32 118.11 0)
+		(at 20.32 120.65 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12315,7 +12316,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 27.94 122.682 0)
+			(at 27.94 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12323,7 +12324,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 20.32 118.11 0)
+			(at 20.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12332,7 +12333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 118.11 0)
+			(at 20.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12341,7 +12342,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 20.32 118.11 0)
+			(at 20.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
