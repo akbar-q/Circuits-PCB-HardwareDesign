@@ -4652,6 +4652,18 @@
 		(uuid 415ddeca-7a96-4cea-8f08-be49fd3a7f20)
 	)
 	(rectangle
+		(start 223.52 130.81)
+		(end 281.94 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5aab450f-7b15-4123-946c-1d87da4d74f5)
+	)
+	(rectangle
 		(start 66.04 130.81)
 		(end 170.18 196.85)
 		(stroke
@@ -5115,7 +5127,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 170.18) (xy 38.1 175.26)
+			(xy 250.19 142.24) (xy 250.19 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5135,7 +5147,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 167.64) (xy 31.75 182.88)
+			(xy 243.84 139.7) (xy 243.84 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5295,6 +5307,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 176.53) (xy 30.48 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fec7948-c7e3-4f54-b4cb-b5953e83de15")
+	)
+	(wire
+		(pts
 			(xy 193.04 118.11) (xy 195.58 118.11)
 		)
 		(stroke
@@ -5432,6 +5454,16 @@
 			(type default)
 		)
 		(uuid "2d39cf6d-238c-4477-9f5b-63d8b03ebe7a")
+	)
+	(wire
+		(pts
+			(xy 30.48 165.1) (xy 30.48 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0fc274-8be4-44a5-8001-f956255c77e7")
 	)
 	(wire
 		(pts
@@ -5875,7 +5907,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 170.18) (xy 38.1 170.18)
+			(xy 259.08 142.24) (xy 250.19 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6365,6 +6397,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 167.64) (xy 41.91 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0eca8f1-514b-48b4-a4b9-e4d3a3e0112c")
+	)
+	(wire
+		(pts
 			(xy 261.62 111.76) (xy 266.7 111.76)
 		)
 		(stroke
@@ -6372,6 +6414,16 @@
 			(type default)
 		)
 		(uuid "b1d9a2f5-3183-4603-9b8d-1575b4f2be45")
+	)
+	(wire
+		(pts
+			(xy 41.91 167.64) (xy 41.91 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f32543-80d6-489b-bd17-5c70466cea11")
 	)
 	(wire
 		(pts
@@ -6715,6 +6767,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 176.53) (xy 41.91 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e141ff3e-9616-4152-9370-7eba6395a032")
+	)
+	(wire
+		(pts
 			(xy 181.61 82.55) (xy 187.96 82.55)
 		)
 		(stroke
@@ -6935,6 +6997,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 165.1) (xy 30.48 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5bd9cd6-e157-43cf-8441-42a03925cf75")
+	)
+	(wire
+		(pts
 			(xy 118.11 157.48) (xy 118.11 160.02)
 		)
 		(stroke
@@ -7005,7 +7077,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 167.64) (xy 31.75 167.64)
+			(xy 259.08 139.7) (xy 243.84 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7085,6 +7157,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OdiffA"
+		(shape input)
+		(at 30.48 179.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e1d3f86-52f9-4801-9635-ffa013f75828")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.48 187.6795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7179,7 +7273,7 @@
 	)
 	(global_label "FETSupply"
 		(shape input)
-		(at 38.1 175.26 270)
+		(at 250.19 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7189,7 +7283,7 @@
 		)
 		(uuid "2fc2598c-ac33-469e-a15d-68afb4c27789")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 187.7397 90)
+			(at 250.19 159.7997 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,6 +7460,28 @@
 		(uuid "86b069aa-f9fb-4139-8cb3-081dcf41086d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.8003 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OdiffB"
+		(shape input)
+		(at 41.91 179.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e792ea0-bb34-46b8-ac6b-ec31effb36ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 187.8609 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10466,6 +10582,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 50.8 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65050bde-c9f8-4b51-9b5f-934b744649a2")
+		(property "Reference" "J10"
+			(at 50.8 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 35.56 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2ed5f3c-bef0-4b93-835d-f2382b2e4661")
+		)
+		(pin "1"
+			(uuid "b988b0be-f129-4ebf-871f-b58a39462c3e")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 190.5 49.53 90)
 		(unit 1)
@@ -11709,7 +11895,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 182.88 0)
+		(at 243.84 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11717,7 +11903,7 @@
 		(dnp no)
 		(uuid "8cba99dd-88ae-43b8-8b84-6984fbd7e0b0")
 		(property "Reference" "#PWR058"
-			(at 31.75 189.23 0)
+			(at 243.84 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11726,7 +11912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 186.69 0)
+			(at 243.84 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11734,7 +11920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 182.88 0)
+			(at 243.84 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11743,7 +11929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 182.88 0)
+			(at 243.84 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11752,7 +11938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 182.88 0)
+			(at 243.84 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13150,35 +13336,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 52.07 167.64 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 41.91 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c9a5db67-1044-40a8-9ac9-a79189a83c2f")
-		(property "Reference" "J6"
-			(at 52.07 168.91 0)
+		(uuid "c6484534-294b-44fe-92c6-eadbd2dd74fe")
+		(property "Reference" "R33"
+			(at 43.18 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 36.83 164.084 0)
+		(property "Value" "50R"
+			(at 43.18 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 52.07 167.64 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 40.132 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13187,7 +13372,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 167.64 0)
+			(at 41.91 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "459b7dfa-04a4-4b90-951f-3f153417efc4")
+		)
+		(pin "2"
+			(uuid "74fa7adc-bec5-416c-bb0c-88db01e201c0")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 264.16 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9a5db67-1044-40a8-9ac9-a79189a83c2f")
+		(property "Reference" "J6"
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 248.92 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+			(at 264.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13196,7 +13451,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 52.07 167.64 0)
+			(at 264.16 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14114,6 +14369,75 @@
 			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb4cea4a-ba97-4f55-84d7-ca8e71e152ef")
+		(property "Reference" "R32"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50R"
+			(at 31.75 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 28.702 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9dd0f86-50b9-4292-bdc3-008368c9ab7a")
+		)
+		(pin "2"
+			(uuid "52922710-25e1-4f51-87c2-07e24b9b9c4e")
+		)
+		(instances
+			(project "MPPT-Controller"
+				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722"
+					(reference "R32")
 					(unit 1)
 				)
 			)
