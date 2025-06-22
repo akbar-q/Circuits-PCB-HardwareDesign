@@ -3991,6 +3991,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 43.18) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a34752-a8ac-4118-8382-7c8963ea6e6e")
+	)
+	(wire
+		(pts
 			(xy 85.09 100.33) (xy 85.09 105.41)
 		)
 		(stroke
@@ -4268,6 +4278,16 @@
 			(type default)
 		)
 		(uuid "6bbe9b33-e338-41ec-aba0-3cfc738c895d")
+	)
+	(wire
+		(pts
+			(xy 52.07 45.72) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfbe5de-c083-438a-bcc6-eb7afad8024c")
 	)
 	(wire
 		(pts
@@ -5599,6 +5619,28 @@
 			)
 		)
 	)
+	(global_label "Tacho"
+		(shape input)
+		(at 52.07 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd8732e2-21df-40a5-a890-1f59be11afd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.5584 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Beat"
 		(shape input)
 		(at 52.07 35.56 0)
@@ -5612,6 +5654,28 @@
 		(uuid "d23e4542-1ccf-4bfb-b970-f07552766107")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.2885 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FanPWM"
+		(shape input)
+		(at 52.07 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2a2fcac-14e1-496f-b81b-b694f84591f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.6146 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7746,7 +7810,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6eb7f28b-61fd-4fac-a0c6-21a1a32333be")
+		(uuid "6eb7f28b-61fd-4fac-a0c6-21a1a32333bf")
 		(property "Reference" "#PWR032"
 			(at 35.56 22.86 0)
 			(effects
@@ -7791,7 +7855,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f634f286-617f-459b-89b9-2047ee0f19c9")
+			(uuid "f634f286-617f-459b-89b9-2047ee0f19ca")
 		)
 		(instances
 			(project "MPPT-Controller"
