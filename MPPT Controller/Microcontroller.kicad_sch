@@ -8822,7 +8822,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "918cd948-a60b-450f-937d-f4e5bd80ca89")
+		(uuid "918cd948-a60b-450f-937d-f4e5bd80ca8a")
 		(property "Reference" "#PWR028"
 			(at 142.24 137.16 0)
 			(effects
@@ -8868,7 +8868,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "37468cb2-d0da-4eb3-8534-00b8532c3349")
+			(uuid "37468cb2-d0da-4eb3-8534-00b8532c334a")
 		)
 		(instances
 			(project "MPPT-Controller"
@@ -9464,7 +9464,7 @@
 			(uuid "03d02d83-72db-4c82-a175-7934c8a8cb5d")
 		)
 		(instances
-			(project ""
+			(project "MPPT-Controller"
 				(path "/3478fe58-6c48-40fd-90f3-a0feb3af5722/0f80c830-9625-4e30-9255-a3bc6189ae7c"
 					(reference "D9")
 					(unit 1)
