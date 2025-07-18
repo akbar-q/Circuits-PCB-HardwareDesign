@@ -9,7 +9,7 @@ The design prioritizes simplicity, modularity. By focusing on essential componen
 ## Schematic Design Process
 The schematic design was approached systematically, ensuring each section contributes to the overall functionality and reliability of the charger.
 
-![Schematic Diagram](Layers PNG/Schematic Print Colour.png)
+![Schematic Diagram](images/schematic.png)
 
 ### 1. Microcontroller Integration
 The heart of the design is the ESP-WROOM-32E microcontroller, chosen for its versatility, cost-effectiveness, and extensive open-source support. Key considerations included:
@@ -87,11 +87,11 @@ Yes, the silkscreen is excessive, but I am very proud of it. It is a testament t
 The front mask layer is also used creatively. There are cutouts, such as for the Ni atomic number, which allow the copper to shine through and provide a striking visual contrast. This use of the mask for graphics adds another layer of visual interest to the board.
 
 ### PCB Images
-- **Front Copper**: ![Front Copper](Layers PNG/front_copper.png)
-- **Back Copper**: ![Back Copper](Layers PNG/back_copper.png)
-- **Front Silkscreen**: ![Front Silkscreen](Layers PNG/front_silkscreen.png)
-- **Back Silkscreen**: ![Back Silkscreen](Layers PNG/back_silkscreen.png)
-- **Front Mask**: ![Front Mask](Layers PNG/front_mask.png)
+- **Front Copper**: ![Front Copper](images/front_copper.png)
+- **Back Copper**: ![Back Copper](images/back_copper.png)
+- **Front Silkscreen**: ![Front Silkscreen](images/front_silkscreen.png)
+- **Back Silkscreen**: ![Back Silkscreen](images/back_silkscreen.png)
+- **Front Mask**: ![Front Mask](images/front_mask.png)
 
 ## Design Highlights
 - **Modularity**: The ability to expand the system to track more cells makes the design versatile and cost-effective.
