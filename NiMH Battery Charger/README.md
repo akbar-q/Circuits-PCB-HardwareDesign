@@ -9,6 +9,8 @@ The design prioritizes simplicity, modularity. By focusing on essential componen
 ## Schematic Design Process
 The schematic design was approached systematically, ensuring each section contributes to the overall functionality and reliability of the charger.
 
+![Schematic Diagram](images/schematic.png)
+
 ### 1. Microcontroller Integration
 The heart of the design is the ESP-WROOM-32E microcontroller, chosen for its versatility, cost-effectiveness, and extensive open-source support. Key considerations included:
 - **Pin Protection**: ESDS diodes were added to safeguard the microcontroller pins against electrostatic discharge.
@@ -47,6 +49,49 @@ While the modularity feature adds scalability to the design, an alternative appr
 Instead, the current design relies on voltage measurements. When no battery is connected, the voltage at the ADC input is nearly 3V. When a battery is plugged in, the voltage drops to a lower value due to the resistor at the battery's positive terminal. If the battery voltage exceeds a certain threshold, it is determined to be nearly fully charged. At this point, a timer can be started to wait for the battery to reach full charge. 
 
 Experimental testing will be required to study the behavior of various battery cells. Multiple brands and capacities of cells are lined up for these tests. Additionally, incorporating transistors or power-disable capable voltage regulators could have been helpful to measure the raw voltage directly at the battery terminal, further improving accuracy.
+
+## PCB Design
+The PCB design is a showcase of both practical engineering and creative expression. It is a 2-layer board, with copper tracks running horizontally on the front and vertically on the back. This orthogonal layout is a common and effective strategy in digital and complex circuits, as it allows for clean routing of buses and makes it easy to use vias to jump between layers when a bend is needed. Tracks are routed as buses, with multiple nets grouped together for similar functions, such as the expansion port runs.
+
+The power planes are intentionally split: there is a ground plane, a 3.3V digital plane for the microcontroller, and a separate 3.3V power plane for supplying the batteries. While this might seem less ideal for noise, in this slow-signal, non-critical application, it is perfectly acceptable. The cost savings from using a 2-layer PCB instead of a 4-layer one are substantial—nearly fourfold—and for a battery charger, a 4-layer board would be overkill. This demonstrates that resource constraints did not compromise the methodology or quality of the layout.
+
+### Copper Layers
+- **Front Copper**: Routed horizontally, forming the basis for the orthogonal bus structure.
+- **Back Copper**: Routed vertically, complementing the front and enabling efficient use of vias for layer transitions.
+- **Power Planes**: As described above, the split planes are a deliberate, practical choice for this application.
+
+### Silkscreen
+
+#### Front Silkscreen
+The front silkscreen is simple but meaningful. The only decorations are:
+- Outlines around the LEDs, showing positive and negative sides, replacing the usual dot or line indicators.
+- A plus icon to indicate the positive side of the battery holder.
+- Central branding: "5+" (the 5 for the number of cells the board can hold, and the "+" for expandability), a right-to-repair logo (a movement I genuinely support and encourage others to as well), and a battery reuse icon.
+- A mask cutout for the Ni atomic number, which appears shiny and provides strong contrast against the rest of the board and silkscreen.
+- A turtle icon on the far right, representing the slow, steady nature of trickle charging.
+
+#### Back Silkscreen
+The back silkscreen is heavily decorated and, in my opinion, beautiful:
+- The top is all functional: my name is on the left, below that an outline and text indicating the 7-segment display is on the opposite side.
+- There is a playful Shin Chan reference (I love the show, especially the adult-oriented Funimation English dub).
+- The top middle has a spot to mark whether the board is a slave or master (if the lack of ESP wasn't obvious enough for a slave), and below that, space for a serial number.
+- The right side provides information about the typical charging current.
+- The USB CC pins are outlined, with a white bar to show ground.
+- Below the functional area, the current-limiting resistors are depicted as cars speeding down a two-lane road, complete with road outlines, markings, a zebra crosswalk, and "speed trails" behind the resistors.
+- At the bottom edge, a cityscape is featured, with the voltage regulator forming the top of one of the buildings.
+- The PCB is dotted to give a starry night effect, a motif I have used in previous projects.
+
+Yes, the silkscreen is excessive, but I am very proud of it. It is a testament to the creativity and personality that human designers bring to hardware—something AI will never take away.
+
+### Mask Layer
+The front mask layer is also used creatively. There are cutouts, such as for the Ni atomic number, which allow the copper to shine through and provide a striking visual contrast. This use of the mask for graphics adds another layer of visual interest to the board.
+
+### PCB Images
+- **Front Copper**: ![Front Copper](images/front_copper.png)
+- **Back Copper**: ![Back Copper](images/back_copper.png)
+- **Front Silkscreen**: ![Front Silkscreen](images/front_silkscreen.png)
+- **Back Silkscreen**: ![Back Silkscreen](images/back_silkscreen.png)
+- **Front Mask**: ![Front Mask](images/front_mask.png)
 
 ## Design Highlights
 - **Modularity**: The ability to expand the system to track more cells makes the design versatile and cost-effective.
