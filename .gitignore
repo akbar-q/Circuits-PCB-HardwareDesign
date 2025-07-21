@@ -1,3 +1,7 @@
 *.lck
 *.zip
-MPPT Controller/fp-info-cache
+**/fp-info-cache/
+**/*-backups/
+**/*Images/
+
+
