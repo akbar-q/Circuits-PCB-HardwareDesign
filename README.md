@@ -1,4 +1,4 @@
-# Electronics Hardware Design Portfolio
+# Electronics Hardware Design Portfolio (Work in Progress)
 
 This repository showcases a curated selection of my original electronics hardware designs. These projects span power electronics, RF systems, digital logic, and embedded hardware, each built with an emphasis on practical validation, clean design, and production-readiness.
 
