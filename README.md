@@ -44,6 +44,15 @@ A smart charger built for safe and reliable charging of NiMH cells in a lab or s
 
 ---
 
+### Hairpin Filters Sub 2 GHz  
+Compact UHF hairpin bandpass filters designed, simulated, and verified using VNA.
+
+**Project Folder:** `hairpin-filters-sub2ghz/`  
+**Image Gallery:**  
+![Placeholder image](images/hairpin-filters-placeholder.png)
+
+---
+
 ### PLC-Hardware  
 Rugged industrial-grade hardware designed to interface with PLCs and field IO.
 
@@ -56,18 +65,7 @@ Rugged industrial-grade hardware designed to interface with PLCs and field IO.
 **Schematic:** [View Schematic](#)  
 **PCB Layout:** [View PCB](#)  
 **Image Gallery:**  
-![Placeholder image](images/plc-hardware-placeholder.png)
-
----
-
-## Additional Projects
-
-### Battery Management Client Collab  
-Collaborative BMS system design including cell protection, balancing, and diagnostic features.
-
-**Project Folder:** `battery-management-client/`  
-**Image Gallery:**  
-![Placeholder image](images/bms-placeholder.png)
+![Placeholder image](PLC-Hardware/PLC-Hardware.png)
 
 ---
 
@@ -89,21 +87,23 @@ TTL-based binary clock project showcasing fundamental combinational and sequenti
 
 ---
 
-### Hairpin Filters Sub 2 GHz  
-Compact UHF hairpin bandpass filters designed, simulated, and verified using VNA.
-
-**Project Folder:** `hairpin-filters-sub2ghz/`  
-**Image Gallery:**  
-![Placeholder image](images/hairpin-filters-placeholder.png)
-
----
-
 ### Macro Keypad 12 Key  
 A 12-key programmable macro keypad using mechanical switches and a USB interface.
 
 **Project Folder:** `macro-keypad-12key/`  
 **Image Gallery:**  
 ![Placeholder image](images/macro-keypad-placeholder.png)
+
+---
+
+## Additional Projects
+
+### Battery Management Client Collab  
+Collaborative BMS system design including cell protection, balancing, and diagnostic features.
+
+**Project Folder:** `battery-management-client/`  
+**Image Gallery:**  
+![Placeholder image](Battery%20Management%20Client%20Collab/BMS.png)
 
 ---
 
