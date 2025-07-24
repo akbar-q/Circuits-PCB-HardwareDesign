@@ -125,4 +125,4 @@ Custom-modified Uno R4 tailored for embedded development competitions and testin
 ---
 
 For inquiries, collaboration, or freelance design work, please reach out via my website.  
-**[your-website-link-here]**
+**[akbarq.com]**
