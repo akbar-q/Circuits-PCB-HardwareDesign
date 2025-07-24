@@ -5,6 +5,7 @@ A high-performance RF amplifier designed specifically for IoT devices operating 
 
 ![Hardware](Photographs/Amplifier.png)
 ![Hardware](Photographs/RFPSU.png)
+![Hardware](Photographs/UltraCloseRFPSU.png)
 ![Hardware](Photographs/Plates.png)
 
 ## Technical Details
