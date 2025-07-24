@@ -24,7 +24,7 @@ High-performance RF amplifier optimized for sub-1.6 GHz communication applicatio
 **Schematic:** [View Schematic](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/blob/main/RF%20Amplifier%20Sub%201.6%20GHz/Schematic%20Print%20Colour.pdf)  
 **PCB Layout:** [View PCB](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/blob/main/RF%20Amplifier%20Sub%201.6%20GHz/PCB%20Layers%20Print%20BW.pdf)  
 **Image Gallery:**  
-![RF Amplifier](RF%20Amplifier%20Sub%201.6%20GHz/RF-AmplifierDark.png)
+![RF Amplifier](RF%20Amplifier%20Sub%201.6%20GHz/Amplifier.png)
 
 ---
 
@@ -49,7 +49,7 @@ Compact UHF hairpin bandpass filters designed, simulated, and verified using VNA
 
 **Project Folder:** `hairpin-filters-sub2ghz/`  
 **Image Gallery:**  
-![Placeholder image](images/hairpin-filters-placeholder.png)
+![Placeholder image](Hairpin%20Filters%20Sub%202%20GHz/Filters.png)
 
 ---
 
@@ -69,6 +69,15 @@ Rugged industrial-grade hardware designed to interface with PLCs and field IO.
 
 ---
 
+### Macro Keypad 12 Key  
+A 12-key programmable macro keypad using mechanical switches and a USB interface.
+
+**Project Folder:** `macro-keypad-12key/`  
+**Image Gallery:**  
+![Placeholder image](Macro%20Keypad%2012%20Key/Macro.png)
+
+---
+
 ### Business Card  
 An ultra-compact functional PCB business card featuring a microcontroller and capacitive touch input.
 
@@ -84,15 +93,6 @@ TTL-based binary clock project showcasing fundamental combinational and sequenti
 **Project Folder:** `digital-logic-clock/`  
 **Image Gallery:**  
 ![Placeholder image](images/logic-clock-placeholder.png)
-
----
-
-### Macro Keypad 12 Key  
-A 12-key programmable macro keypad using mechanical switches and a USB interface.
-
-**Project Folder:** `macro-keypad-12key/`  
-**Image Gallery:**  
-![Placeholder image](images/macro-keypad-placeholder.png)
 
 ---
 
