@@ -44,6 +44,24 @@ A smart charger built for safe and reliable charging of NiMH cells in a lab or s
 
 ---
 
+### RF High Voltage Arc Detector  
+Industrial-grade non-contact high voltage arc detection system designed for monitoring electrical equipment in enclosures such as relays and switchgear boxes.
+
+**Highlights**  
+- RF-based detection using differential antenna for electromagnetic signatures
+- Real-time arc detection with audio/visual alarms and SMA output for external monitoring
+- 4-layer PCB with dual ±5V supply and dedicated comparator circuit for precise triggering
+- Compact standalone design suitable for harsh industrial environments
+- Client collaboration for specialized R&D and prototype validation
+
+**Project Folder:** [View Folder](https://github.com/akbar-q/Circuits-PCB-HardwareDesign/tree/main/RF%20High%20Voltage%20Arc%20Detector)  
+**Schematic:** [View Schematic](#)  
+**PCB Layout:** [View PCB](#)  
+**Image Gallery:**  
+![RF HV Arc Detector](RF%20High%20Voltage%20Arc%20Detector/NCV.png)
+
+---
+
 ### Hairpin Filters Sub 2 GHz  
 Compact UHF hairpin bandpass filters designed, simulated, and verified using VNA.
 
